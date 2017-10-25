@@ -1,0 +1,830 @@
+    at XCUITestDriver.start$ (../../lib/driver.js:313:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[HTTP] <-- POST /wd/hub/session 500 592 ms - 210
+[HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"iPhone 6","udid":"bda3cf30fd1e434c11afff0df5392bdc6529b70c","showIOSLog":"true","platformVersion":"11.0","portrait":"portrait","platformName":"iOS","bundleId":"Applicaster-LTD.AutomationExampleApp"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 6","udid":"bda3cf30fd1e434c11afff0df5392bdc6529b70c","showIOSLog":"true","platformVersion":"11.0","portrait":"portrait","platformName":"iOS","bundleId":"Applicaster-LTD.AutomationExampleApp"},null,{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1508930814333 (14:26:54 GMT+0300 (IDT))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.51.1) session
+[Appium] Capabilities:
+[Appium]   deviceName: 'iPhone 6'
+[Appium]   udid: 'bda3cf30fd1e434c11afff0df5392bdc6529b70c'
+[Appium]   showIOSLog: 'true'
+[Appium]   platformVersion: '11.0'
+[Appium]   portrait: 'portrait'
+[Appium]   platformName: 'iOS'
+[Appium]   bundleId: 'Applicaster-LTD.AutomationExampleApp'
+[BaseDriver] Capability 'showIOSLog' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: portrait.
+[BaseDriver] Session created with session id: 19c7990b-6899-411a-97f2-ba65a78ad404
+[debug] [XCUITest] Xcode version set to '9.0.1' (tools v9.0.1.0.1.1506734476)
+[debug] [XCUITest] iOS SDK Version set to '11.0'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1508930814379 (14:26:54 GMT+0300 (IDT))
+[debug] [XCUITest] Available devices: bda3cf30fd1e434c11afff0df5392bdc6529b70c
+[debug] [XCUITest] Creating iDevice object with udid 'bda3cf30fd1e434c11afff0df5392bdc6529b70c'
+[XCUITest] Determining device to run tests on: udid: 'bda3cf30fd1e434c11afff0df5392bdc6529b70c', real device: true
+[debug] [BaseDriver] Event 'appConfigured' logged at 1508930814515 (14:26:54 GMT+0300 (IDT))
+[debug] [BaseDriver] Event 'resetStarted' logged at 1508930814515 (14:26:54 GMT+0300 (IDT))
+[debug] [XCUITest] Reset: running ios real device reset flow
+[debug] [BaseDriver] Event 'resetComplete' logged at 1508930814515 (14:26:54 GMT+0300 (IDT))
+[debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+[debug] [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1508930814677 (14:26:54 GMT+0300 (IDT))
+[XCUITest] Setting up real device
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone duetexpertd(Foundation)[7549] <Notice>: Claim 343DCB8E-173C-4602-8BBD-2370D3577ED7 invoked in client
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 343DCB8E-173C-4602-8BBD-2370D3577ED7 was revoked
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:54 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:8100/'. Rebuilding...
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1508930814934 (14:26:54 GMT+0300 (IDT))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*bda3cf30fd1e434c11afff0df5392bdc6529b70c, iproxy 8100' for the device bda3cf30fd1e434c11afff0df5392bdc6529b70c...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*bda3cf30fd1e434c11afff0df5392bdc6529b70c' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 8100' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Starting iproxy to forward traffic from local port 8100 to device port 8100 over USB
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone sharingd[2447] <Notice>: Successfully decrypted advertisement (sharing flags + advertisementPayload): <daba3b0b086492876892> => <08ab1e9a00a1072cb8bf1d9808c8>, counter: 7851
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone sharingd[2447] <Notice>: Received a new advertisement <SFActivityAdvertisement: 0x100abf2c0, deviceUniqueID:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d9808c8>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd(Sharing)[2531] <Notice>: [SFContinuityScanManager] Found device <SFPeerDevice: 0x145e30f10, uniqueID:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, modelIdentifier:MacBookPro11,4, name:Boaz\M-b\M^@\M^Ys MacBook Pro>. Handled:YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd(Sharing)[2531] <Notice>: [SFContinuityScanManager] Received advertisement <SFActivityAdvertisement: 0x145e4ec20, deviceIdentifier:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d9808c8>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>. Handled:YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: foundDevice, deviceIdentifier=<private> so .
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: foundDevice, deviceIdentifier=<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD] Received pboard avalible advertisement
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD] Notify client of new remote pboard and reset timmer
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD CONTROLLER] Sending client xpc remote avalible update: YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: Unable to determine application on this device for advertisement a1072cb8bf1d9808c8/<private>, so ignoring this received activity.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone useractivityd[2531] <Notice>: # RECEIVED advertisement, a1072cb8bf1d9808c8 type=<private> -> <private>, (null), from <private>/<private> options={ SFActivityAdvertiserOptionFlagCopyPasteKey = 1; SFActivityAdvertiserOptionMinorVersionKey = 0; SFActivityAdvertiserOptionVersionKey = 0;}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: BundleID com.apple.kbd from team (null) (pid 2526) is requesting pasteboard com.apple.UIKit.pboard.general
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: Requesting local only pasteboard for com.apple.kbd
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: ...requesting pasteboard com.apple.UIKit.pboard.general completed. Error: (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: Bundle ID com.apple.kbd from team (null) is requesting item 0 of type public.utf8-plain-text from pasteboard named com.apple.UIKit.pboard.general with UUID 0E33A100-8D71-4B85-AD87-70CFEAEA4EB4
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: Loading item 0x10091a050 053723A2-2C0F-4E81-A7DD-2B8547E3DABB type public.utf8-plain-text from URL file:///var/mobile/Library/Caches/com.apple.Pasteboard/eb77e5f8f043896faf63b5041f0fbd121db984dd/718cff562cdb69008361e3125ec21100decaf321
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone analyticsd[2475] <Notice>: [<private>] no observers; dropped.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone kbd(Foundation)[2526] <Notice>: Read options: 8 -- URL: <private> -- purposeID: 505D27A3-0A43-43D0-ABD3-5BE4EF8A6921 -- claimID: 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Received claim 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455 granted in server
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455 invoked in server
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: ...item request completed. Error: (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone kbd(Foundation)[2526] <Notice>: Claim 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455 granted in client
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone analyticsd[2475] <Notice>: [<private>] no observers; dropped.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone kbd(Foundation)[2526] <Notice>: Claim 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455 invoked in client
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 23C9EA8B-B167-41D2-B0ED-FCCA1F4BF455 was revoked
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: WARNING: Using process name duetexpertd as bundle ID.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: BundleID duetexpertd from team (null) (pid 7549) is requesting pasteboard com.apple.UIKit.pboard.general
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: Requesting local only pasteboard for duetexpertd
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: ...requesting pasteboard com.apple.UIKit.pboard.general completed. Error: (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: WARNING: Using process name duetexpertd as bundle ID.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: Bundle ID duetexpertd from team (null) is requesting item 0 of type public.utf8-plain-text from pasteboard named com.apple.UIKit.pboard.general with UUID 0E33A100-8D71-4B85-AD87-70CFEAEA4EB4
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: Loading item 0x1009c5390 053723A2-2C0F-4E81-A7DD-2B8547E3DABB type public.utf8-plain-text from URL file:///var/mobile/Library/Caches/com.apple.Pasteboard/eb77e5f8f043896faf63b5041f0fbd121db984dd/718cff562cdb69008361e3125ec21100decaf321
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone pasted[2919] <Notice>: ...item request completed. Error: (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone duetexpertd(Foundation)[7549] <Notice>: Read options: 8 -- URL: <private> -- purposeID: 2F898817-15E6-4063-970B-211521EDDF04 -- claimID: 68301B5A-260F-4A5A-82B3-D651903523F8
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Received claim 68301B5A-260F-4A5A-82B3-D651903523F8
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 68301B5A-260F-4A5A-82B3-D651903523F8 granted in server
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 68301B5A-260F-4A5A-82B3-D651903523F8 invoked in server
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone duetexpertd(Foundation)[7549] <Notice>: Claim 68301B5A-260F-4A5A-82B3-D651903523F8 granted in client
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone duetexpertd(Foundation)[7549] <Notice>: Claim 68301B5A-260F-4A5A-82B3-D651903523F8 invoked in client
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone filecoordinationd(Foundation)[2551] <Notice>: Claim 68301B5A-260F-4A5A-82B3-D651903523F8 was revoked
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone aggregated(CoreLocation)[7340] <Notice>: {"msg":"CLCopyAppsUsingLocation", "event":"activity"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:55 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 2A 00 80 03 04 04 74 BC 51 00 1E 00 11 08 00 83 05 00 00 96 FF FF FF 14 06 00 BC F2 9C FF 38 00 A2 01 00 64 A4 03 00 01 64 00']
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:57 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -55 (txFrames/txReTx/txFail) 1/0/0 -> (was/is) 0/0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:57 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone sharingd[2447] <Notice>: Successfully decrypted advertisement (sharing flags + advertisementPayload): <8de07e71f2ddf9cb2728> => <08ac1eb10087cb2f28820c6f09d4>, counter: 7852
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone sharingd[2447] <Notice>: Received a new advertisement <SFActivityAdvertisement: 0x100ac8c20, deviceUniqueID:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<87cb2f28820c6f09d4>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone useractivityd(Sharing)[2531] <Notice>: [SFContinuityScanManager] Received advertisement <SFActivityAdvertisement: 0x145e58b50, deviceIdentifier:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<87cb2f28820c6f09d4>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>. Handled:YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD] Received pboard avalible advertisement
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone useractivityd[2531] <Notice>: # RECEIVED advertisement, 87cb2f28820c6f09d4 type=<private> -> <private>, E7D1020C-1A3F-4BD5-B32E-88F298DB6A60, from <private>/<private> options={ SFActivityAdvertiserOptionFlagCopyPasteKey = 1; SFActivityAdvertiserOptionMinorVersionKey = 0; SFActivityAdvertiserOptionVersionKey = 0;}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone analyticsd[2475] <Notice>: [<private>] no observers; dropped.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:58 Boazs-iPhone trustd[2477] <Notice>: could not disable pinning: not an internal release
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone sharingd[2447] <Notice>: Successfully decrypted advertisement (sharing flags + advertisementPayload): <9f9c666e437fb3c05068> => <08ad1ee700a1072cb8bf1d9808d4>, counter: 7853
+[debug] [XCUITest] Using Xcode 9.0.1, so fixing WDA codebase
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone sharingd[2447] <Notice>: Received a new advertisement <SFActivityAdvertisement: 0x100afac20, deviceUniqueID:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d9808d4>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=bda3cf30fd1e434c11afff0df5392bdc6529b70c IPHONEOS_DEPLOYMENT_TARGET=11.0' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To see xcode logging, use 'showXcodeLog' desired capability
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone useractivityd(Sharing)[2531] <Notice>: [SFContinuityScanManager] Received advertisement <SFActivityAdvertisement: 0x145e0b530, deviceIdentifier:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d9808d4>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>. Handled:YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD] Received pboard avalible advertisement
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone useractivityd[2531] <Notice>: Unable to determine application on this device for advertisement a1072cb8bf1d9808d4/<private>, so ignoring this received activity.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:26:59 Boazs-iPhone useractivityd[2531] <Notice>: # RECEIVED advertisement, a1072cb8bf1d9808d4 type=<private> -> <private>, (null), from <private>/<private> options={ SFActivityAdvertiserOptionFlagCopyPasteKey = 1; SFActivityAdvertiserOptionMinorVersionKey = 0; SFActivityAdvertiserOptionVersionKey = 0;}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:00 Boazs-iPhone analyticsd[2475] <Notice>: [<private>] no observers; dropped.
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:00 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:00 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:00 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:00 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone companion_proxy[7498] <Notice>: CompanionProxy: -[CPXService initWithLockdownContext:]:58 (0x0x16ece3000): Initialized connection to listen for gizmos. Host: 127.0.0.1 (ipV4)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: !setState service=com.apple.private.alloy.companionproxy
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: Finished processing accounts set.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: Connection map:
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone companion_proxy(IMFoundation)[7498] <Notice>: Created XPC service with name: <private>  (Connection: 0x137e10900)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone companion_proxy(IMFoundation)[7498] <Notice>: Connection went invalid: 0x137e10900
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 2A 00 80 03 04 04 75 BC 51 00 1E 00 11 08 00 83 05 00 00 96 FF FF FF 14 06 00 BB F3 9C FF 7C 00 A2 01 00 64 A4 03 00 01 64 00']
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone sharingd[2447] <Notice>: New counter 7852 is not greater than previous 7853 from A1E81858-93C7-4E5B-87D5-57483AE8BC9E with rawAdvertisementData <08ac1eb18de07e71f2ddf9cb2728>. Requesting new key
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone sharingd[2447] <Notice>: SDActivityPayloadManager: BUDGET BLOCK: Only 52s since we last requested a key from A1E81858-93C7-4E5B-87D5-57483AE8BC9E. Must wait another 2m7s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone aggregated(CoreLocation)[7340] <Notice>: {"msg":"CLCopyAppsUsingLocation", "event":"activity"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:01 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -53 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone sharingd[2447] <Notice>: New counter 7853 is not greater than previous 7853 from A1E81858-93C7-4E5B-87D5-57483AE8BC9E with rawAdvertisementData <08ad1ee79f9c666e437fb3c05068>. Requesting new key
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone sharingd[2447] <Notice>: SDActivityPayloadManager: BUDGET BLOCK: Only 53s since we last requested a key from A1E81858-93C7-4E5B-87D5-57483AE8BC9E. Must wait another 2m6s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[debug] [XCUITest] Log file for xcodebuild test: /var/folders/k5/nnpdqhds3wx2t7hlwd_qxvvr0000gn/T/com.apple.dt.XCTest/IDETestRunSession-56B8E745-1C81-456A-BF47-7653783A0E2B/WebDriverAgentRunner-6E22CAFA-DF03-421C-9EB4-C895CF1ED417/Session-WebDriverAgentRunner-2017-10-25_142702-nlYzeS.log
+[Xcode] 2017-10-25 14:27:02.361 xcodebuild[74662:6260182] Error Domain=NSCocoaErrorDomain Code=260 "The file “WebDriverAgentRunner-Runner.app” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Users/boazw/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app, NSUnderlyingError=0x7ff60e206dd0 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+[Xcode]
+[Xcode] 2017-10-25 14:27:02.361 xcodebuild[74662:6260182] Error Domain=IDETestOperationsObserverErrorDomain Code=6 "Early unexpected exit, operation never finished bootstrapping - no restart will be attempted" UserInfo={NSLocalizedDescription=Early unexpected exit, operation never finished bootstrapping - no restart will be attempted}
+[Xcode]
+[Xcode] ** TEST EXECUTE FAILED **
+[Xcode]
+[Xcode]
+[XCUITest] xcodebuild exited with code '65' and signal 'null'
+[debug] [BaseDriver] Event 'wdaStartFailed' logged at 1508930822380 (14:27:02 GMT+0300 (IDT))
+[debug] [XCUITest] Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+[XCUITest] Shutting down sub-processes
+[XCUITest] Shutting down iproxy process (pid 74661)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: IDSQuickSwitchAcknowledgementTracker -[IDSQuickSwitchAcknowledgementTracker identifierForServiceDelegate:]  (serviceDelegate: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: IDSQuickSwitchAcknowledgementTracker -[IDSQuickSwitchAcknowledgementTracker stopAwaitingAcknowledgementFromServiceDelegateWithIdentifier:]  (delegateIdentifier: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone notification_proxy(MobileSystemServices)[7502] <Notice>: 0x16f7d7000 -[MNPLockdownConnection receiveMessage]: lockdown_receive_message error!
+[debug] [XCUITest] iproxy exited with code 'null'
+[debug] [XCUITest] Removing WDA application from device
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone mobile_installation_proxy(MobileInstallation)[7512] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:1:1:Beginning uninstall for com.apple.test.WebDriverAgentRunner-Runner with options (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone mobile_installation_proxy(MobileCoreServices)[7512] <Notice>: setting operationType to LSOperationTypeUninstallApplication from options (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone mobile_installation_proxy(MobileCoreServices)[7512] <Notice>: created clientUninstaller for type UninstallPlaceholder
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone lsd(MobileInstallation)[2470] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:1:1:Uninstall com.apple.test.WebDriverAgentRunner-Runner with options (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone lsd(MobileCoreServices)[2470] <Notice>: Sending applicationsWillUninstall: for <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone UserEventAgent(MobileCoreServices)[2409] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone coreduetd(MobileCoreServices)[7520] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone profiled(MobileCoreServices)[7241] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone bluetoothd(MobileCoreServices)[2464] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone passd(MobileCoreServices)[2513] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone SpringBoard(MobileCoreServices)[2441] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone atc(MobileCoreServices)[7280] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone dasd(MobileCoreServices)[2485] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone nsurlsessiond(MobileCoreServices)[2484] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone SpringBoard(FrontBoard)[2441] <Notice>: -[FBApplicationLibrary applicationsWillUninstall:] com.apple.test.WebDriverAgentRunner-Runner
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone routined(MobileCoreServices)[2417] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone installd(MobileSystemServices)[7514] <Notice>: 0x16efc3000 -[MIClientConnection uninstallIdentifiers:withOptions:completion:]: Uninstall requested by lsd (pid 2470) for identifier com.apple.test.WebDriverAgentRunner-Runner with options: (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone installd(MobileInstallation)[7514] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:7:11:1:1:Start : Uninstall (Application)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone assertiond[2452] <Notice>: Request to create termination assertion <BKSTerminationAssertionCreateEvent: 0x10091ce90; Identifier: 7514-141B77E3-1BA2-4F12-821C-12CB34DEE344; Name: FBSApplicationTerminationAssertion; Target BundleID: com.apple.test.WebDriverAgentRunner-Runner; Efficacy: Unconditional> from client <BKClientHandle: 0x10092df30; installd:7514; connections: 1>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone assertiond[2452] <Notice>: Acquisition success for assertion <private>: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone installd(AssertionServices)[7514] <Notice>: Acquired termination assertion for event <BKSTerminationAssertionCreateEvent: 0x135d8af50; Identifier: 7514-141B77E3-1BA2-4F12-821C-12CB34DEE344; Name: FBSApplicationTerminationAssertion; Target BundleID: com.apple.test.WebDriverAgentRunner-Runner; Efficacy: Unconditional>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone installd(MobileSystemServices)[7514] <Notice>: 0x16efc3000 +[MIContainer allContainersForIdentifier:options:error:]: 389: No bundle container found for identifier com.apple.test.WebDriverAgentRunner-Runner
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone installd(MobileInstallation)[7514] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:7:11:2:0:Fail (End) : Uninstall (Application)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone assertiond[2452] <Notice>: Client relinquished <BKTerminationAssertion: 0x10082e920; "FBSApplicationTerminationAssertion" (Unconditional); 7514:(null) id:\M-b\M^@\M-&12CB34DEE344>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone assertiond[2452] <Notice>: -[BKAssertion dealloc] - <0x10082e920>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone lsd(MobileInstallation)[2470] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:2:0:MobileInstallation did not uninstall any apps, ignoring
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone mobile_installation_proxy(MobileInstallation)[7512] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:2:0:_LSInstallationManager uninstall:withCompletionBlock finished with error Error Domain=LSApplicationWorkspaceErrorDomain Code=111 "(null)" UserInfo={CFBundleIdentifier=com.apple.test.WebDriverAgentRunner-Runner, optionsDict={
+[iOSLog] [IOS_SYSLOG_ROW] }}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone mobile_installation_proxy(MobileInstallation)[7512] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:2:0:Received NothingToUninstallError, not sending notifications
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone mobile_installation_proxy(MobileCoreServices)[7512] <Notice>: Connection invalidated to installationCallbackInterface
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:02 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:03 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Allow-idle-sleep timer fired but we are not locked; ignoring.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:03 Boazs-iPhone aggregated(CoreLocation)[7340] <Notice>: {"msg":"CLCopyAppsUsingLocation", "event":"activity"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Client relinquished <BKProcessAssertion: 0x10093bdf0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&F7A4AE60D4B8>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Deactivate assertion: <BKProcessAssertion: 0x10093bdf0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&F7A4AE60D4B8>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] dump all assertions HWM:7 (deactivateAssertion): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2> [active]
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10093fbc0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&FB043E356235> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Setting up BG permission check timer for 113s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] dump all assertions HWM:7 (CPUMON check): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2> [active]
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10093fbc0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&FB043E356235> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Updating PowerAssertion on WhatsApp:7552
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Remove assertion: <BKProcessAssertion: 0x10093bdf0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&F7A4AE60D4B8>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Setting up BG permission check timer for 113s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] dump all assertions HWM:7 (CPUMON check): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2> [active]
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10093fbc0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&FB043E356235> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Updating PowerAssertion on WhatsApp:7552
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: -[BKAssertion dealloc] - <0x10093bdf0>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Client relinquished <BKProcessAssertion: 0x10093fbc0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&FB043E356235>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Deactivate assertion: <BKProcessAssertion: 0x10093fbc0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&FB043E356235>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] dump all assertions HWM:7 (deactivateAssertion): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Setting up BG permission check timer for 113s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] dump all assertions HWM:7 (CPUMON check): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Updating PowerAssertion on WhatsApp:7552
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Remove assertion: <BKProcessAssertion: 0x10093fbc0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&FB043E356235>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Setting up BG permission check timer for 113s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] dump all assertions HWM:7 (CPUMON check): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Updating PowerAssertion on WhatsApp:7552
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: -[BKAssertion dealloc] - <0x10093fbc0>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone WhatsApp(CFNetwork)[7552] <Notice>: TCP Conn 0x1c016dc80 canceled
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Client relinquished <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Deactivate assertion: <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] no more active assertions, resetting _timedAssertionPermittedDuration, _timedAssertionReferenceTime, _timedAssertionDeadlineActive: NO
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] New process assertion state; (none) (assertion 0x10084b4a0 added: (none); removed: preventSuspend, preventIdleSleep, preventSuspendOnSleep)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] suspend success
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone powerd[2422] <Notice>: Process assertiond.2452 Released NoIdleSleepAssertion "WhatsApp:7552:7552-5C1F2233-C34A-4CB0-BD2A-C1DEFE8D57A2 [Called by UIKit, from <redacted>] [0x10084b4a0]" age:00:01:07  id:4295008190 [System: PrevIdle]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Setting jetsam priority to 0 [0]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone backboardd(AttentionAwareness)[2446] <Notice>:                 RemoteClient.m:255 :  241474.64760:  Info: reset attention lost timeout for <private> at  241474.64759
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone CommCenter[2466] <Notice>: #I App state[<private>(7552)] is suspended
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone mediaserverd(CoreMedia)[2413] <Notice>: -CMSessionMgr- CMSessionMgrHandleApplicationStateChange: CMSession: Client net.whatsapp.WhatsApp with pid '7552' is now Background Suspended. Background entitlement: YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone CommCenter[2466] <Notice>: #I CTServerConnection from pid 7552 has closed (conn=0x104ea3e00)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone mediaserverd(AudioToolbox)[2413] <Notice>: 1170: pid 7552(WhatsApp)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone backboardd(AttentionAwareness)[2446] <Notice>:                 RemoteClient.m:141 :  241474.64794:  Info: updated config <private>, old config <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone CommCenter[2466] <Notice>: #I BundleID: <private> is no longer a foreground app
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone mediaserverd(AudioToolbox)[2413] <Notice>: 3351: { "action":"application_state_changed", "session":{"ID":"0x970166","PID":7552,"name":"WhatsApp"}, "details":{"new_state":"Background Task Suspended"} }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] pid_shutdown_sockets(1) success
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: Releasing PowerAssertion on WhatsApp:7552 from update
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: [WhatsApp:7552] Remove assertion: <BKProcessAssertion: 0x10084b4a0; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&C1DEFE8D57A2>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone assertiond[2452] <Notice>: -[BKAssertion dealloc] - <0x10084b4a0>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone SpringBoard(WiFiPicker)[2441] <Notice>: WIFI PICKER [net.whatsapp.WhatsApp]: isProcessLaunch: 0,    isForegroundActivation: 0,     isForegroundDeactivation: 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone SpringBoard[2441] <Notice>: Application process state changed for net.whatsapp.WhatsApp: <SBApplicationProcessState: 0x1c4034960; pid: 7552; taskState: Suspended; visibility: Background>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone SpringBoard[2441] <Notice>: <private> - _setIdleTimerWithDescriptor:<SBIdleTimerDescriptor: 0x1c5a47110; timerMode: Automatic; quickUnwarnInterval: 282.0s; warnInterval: 280.0s; totalInterval: 300.0s> reason:"SBHomeScreen"]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone SpringBoard[2441] <Notice>: 0x1c547d280 reconfigured attention timeouts:{
+[iOSLog] [IOS_SYSLOG_ROW]     282 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
+[iOSLog] [IOS_SYSLOG_ROW]     280 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
+[iOSLog] [IOS_SYSLOG_ROW]     300 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
+[iOSLog] [IOS_SYSLOG_ROW] }, configuration generation: 10196
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone SpringBoard[2441] <Notice>: setting configuration:<AWAttentionAwarenessConfiguration: 0x1c4c88610> (identifier: com.apple.springboard.attention-0x1c547d280 samplingInterval:       0.00000 samplingDelay:       0.00000 attentionLostTimeouts:     282.00000,     280.00000,     300.00000 mask Button|Keyboard|Digitizer|GameController|MesaTouch)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone CommCenter[2466] <Notice>: #I BundleID: <private> is no longer a foreground app
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: 7552 net.whatsapp.WhatsApp: BackgroundTaskSuspended (most elevated: BackgroundTaskSuspended)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: Entry, display name net.whatsapp.WhatsApp uuid AD5E8997-197C-3022-BF01-9AF8E34BCAB0 pid 7552 isFront 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:04 Boazs-iPhone callservicesd[2505] <Notice>: Updated isRunning for <private> because new application state is 2
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:05 Boazs-iPhone locationd[2779] <Notice>: {"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:05 Boazs-iPhone coreduetd[7520] <Notice>: CDDBatteryMonitor:	received batterycallback, currentPercentage:97.000000!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:06 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 2A 00 80 03 04 04 76 BC 51 00 1E 00 11 08 00 83 05 00 00 96 FF FF FF 14 06 00 BC F2 9C FF 56 00 A2 01 00 64 A4 03 00 01 64 00']
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -53 (txFrames/txReTx/txFail) 5/0/0 -> (was/is) 0/0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: route source 0x100ac0ae0 description callback has snapshot NWRouteSnapshot Scoped Default->pdp_ip0->10.213.104.217
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: progress on pdp_ip0 for <private>: deltaBytesIn: 0.000000
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: route source 0x1009e2010 description callback has snapshot NWRouteSnapshot Default->en0->192.168.70.1
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: progress on en0 for <private>: deltaBytesIn: 54944.000000
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: defusing ticker tickerFatal having seen route progress since Wed Oct 25 14:27:07 2017
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:07 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone sharingd[2447] <Notice>: Successfully decrypted advertisement (sharing flags + advertisementPayload): <d4adbf696907b46f78b5> => <08ae1e9100a1072cb8bf1d980855>, counter: 7854
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone sharingd[2447] <Notice>: Received a new advertisement <SFActivityAdvertisement: 0x100abf2c0, deviceUniqueID:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d980855>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone useractivityd(Sharing)[2531] <Notice>: [SFContinuityScanManager] Received advertisement <SFActivityAdvertisement: 0x145e58080, deviceIdentifier:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d980855>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>. Handled:YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD] Received pboard avalible advertisement
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone useractivityd[2531] <Notice>: Unable to determine application on this device for advertisement a1072cb8bf1d980855/<private>, so ignoring this received activity.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone useractivityd[2531] <Notice>: # RECEIVED advertisement, a1072cb8bf1d980855 type=<private> -> <private>, (null), from <private>/<private> options={ SFActivityAdvertiserOptionFlagCopyPasteKey = 1; SFActivityAdvertiserOptionMinorVersionKey = 0; SFActivityAdvertiserOptionVersionKey = 0;}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:11 Boazs-iPhone analyticsd[2475] <Notice>: [<private>] no observers; dropped.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:27:12 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -53 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[XCUITest] Error: Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at XCUITestDriver.quitAndUninstall$ (../../lib/driver.js:381:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+ Error: Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at XCUITestDriver.quitAndUninstall$ (../../lib/driver.js:381:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[MJSONWP] Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at XCUITestDriver.quitAndUninstall$ (../../lib/driver.js:381:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[HTTP] <-- POST /wd/hub/session 500 18303 ms - 470
+[HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"iPhone 6","udid":"bda3cf30fd1e434c11afff0df5392bdc6529b70c","showIOSLog":"true","platformVersion":"11.0","portrait":"portrait","platformName":"iOS","automationName":"XCUITest","bundleId":"Applicaster-LTD.AutomationExampleApp"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 6","udid":"bda3cf30fd1e434c11afff0df5392bdc6529b70c","showIOSLog":"true","platformVersion":"11.0","portrait":"portrait","platformName":"iOS","automationName":"XCUITest","bundleId":"Applicaster-LTD.AutomationExampleApp"},null,{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1508931709607 (14:41:49 GMT+0300 (IDT))
+[Appium] Creating new XCUITestDriver (v2.51.1) session
+[Appium] Capabilities:
+[Appium]   deviceName: 'iPhone 6'
+[Appium]   udid: 'bda3cf30fd1e434c11afff0df5392bdc6529b70c'
+[Appium]   showIOSLog: 'true'
+[Appium]   platformVersion: '11.0'
+[Appium]   portrait: 'portrait'
+[Appium]   platformName: 'iOS'
+[Appium]   automationName: 'XCUITest'
+[Appium]   bundleId: 'Applicaster-LTD.AutomationExampleApp'
+[BaseDriver] Capability 'showIOSLog' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: portrait.
+[BaseDriver] Session created with session id: 1fc8d00b-adc6-4251-8158-c7ba49a881c8
+[debug] [XCUITest] Xcode version set to '9.0.1' (tools v9.0.1.0.1.1506734476)
+[debug] [XCUITest] iOS SDK Version set to '11.0'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1508931709655 (14:41:49 GMT+0300 (IDT))
+[debug] [XCUITest] Available devices: bda3cf30fd1e434c11afff0df5392bdc6529b70c
+[debug] [XCUITest] Creating iDevice object with udid 'bda3cf30fd1e434c11afff0df5392bdc6529b70c'
+[XCUITest] Determining device to run tests on: udid: 'bda3cf30fd1e434c11afff0df5392bdc6529b70c', real device: true
+[debug] [BaseDriver] Event 'appConfigured' logged at 1508931709803 (14:41:49 GMT+0300 (IDT))
+[debug] [BaseDriver] Event 'resetStarted' logged at 1508931709803 (14:41:49 GMT+0300 (IDT))
+[debug] [XCUITest] Reset: running ios real device reset flow
+[debug] [BaseDriver] Event 'resetComplete' logged at 1508931709804 (14:41:49 GMT+0300 (IDT))
+[debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+[debug] [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1508931709940 (14:41:49 GMT+0300 (IDT))
+[XCUITest] Setting up real device
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:49 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:49 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:49 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:49 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:50 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:50 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:8100/'. Rebuilding...
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1508931710124 (14:41:50 GMT+0300 (IDT))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*bda3cf30fd1e434c11afff0df5392bdc6529b70c, iproxy 8100' for the device bda3cf30fd1e434c11afff0df5392bdc6529b70c...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*bda3cf30fd1e434c11afff0df5392bdc6529b70c' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 8100' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Starting iproxy to forward traffic from local port 8100 to device port 8100 over USB
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:51 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x01(WDS) Req MsgId=0x555b Bin=[<private>]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:51 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x01(WDS) Resp MsgId=0x555b Bin=[<private>]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:51 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:51 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:53 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 2A 00 80 03 04 04 EE BC 51 00 1E 00 11 08 00 83 05 00 00 96 FF FF FF 14 06 00 BF F3 9F FF 86 00 A2 01 00 64 A4 03 00 01 64 00']
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:53 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:54 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:54 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[debug] [XCUITest] Using Xcode 9.0.1, so fixing WDA codebase
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=bda3cf30fd1e434c11afff0df5392bdc6529b70c IPHONEOS_DEPLOYMENT_TARGET=11.0' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To see xcode logging, use 'showXcodeLog' desired capability
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:55 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone companion_proxy[7498] <Notice>: CompanionProxy: -[CPXService initWithLockdownContext:]:58 (0x0x16ebcb000): Initialized connection to listen for gizmos. Host: 127.0.0.1 (ipV4)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: !setState service=com.apple.private.alloy.companionproxy
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: Finished processing accounts set.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: Connection map:
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone companion_proxy(IMFoundation)[7498] <Notice>: Created XPC service with name: <private>  (Connection: 0x137e04f90)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone companion_proxy(IMFoundation)[7498] <Notice>: Connection went invalid: 0x137e04f90
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:56 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [XCUITest] Log file for xcodebuild test: /var/folders/k5/nnpdqhds3wx2t7hlwd_qxvvr0000gn/T/com.apple.dt.XCTest/IDETestRunSession-F3719531-FDBC-4BAB-A3B4-7F68232A8D1F/WebDriverAgentRunner-A284E057-5C7D-4ECD-B62C-D840BC69F961/Session-WebDriverAgentRunner-2017-10-25_144157-WBVTEz.log
+[Xcode] 2017-10-25 14:41:57.484 xcodebuild[74770:6279999] Error Domain=NSCocoaErrorDomain Code=260 "The file “WebDriverAgentRunner-Runner.app” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Users/boazw/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app, NSUnderlyingError=0x7fabd36d1450 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+[Xcode]
+[Xcode] 2017-10-25 14:41:57.485 xcodebuild[74770:6279999] Error Domain=IDETestOperationsObserverErrorDomain Code=6 "Early unexpected exit, operation never finished bootstrapping - no restart will be attempted" UserInfo={NSLocalizedDescription=Early unexpected exit, operation never finished bootstrapping - no restart will be attempted}
+[Xcode]
+[Xcode] ** TEST EXECUTE FAILED **
+[Xcode]
+[Xcode]
+[XCUITest] xcodebuild exited with code '65' and signal 'null'
+[debug] [BaseDriver] Event 'wdaStartFailed' logged at 1508931717505 (14:41:57 GMT+0300 (IDT))
+[debug] [XCUITest] Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [XCUITest] Quitting and uninstalling WebDriverAgent, then retrying
+[XCUITest] Shutting down sub-processes
+[XCUITest] Shutting down iproxy process (pid 74769)
+[debug] [XCUITest] iproxy exited with code 'null'
+[debug] [XCUITest] Removing WDA application from device
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: IDSQuickSwitchAcknowledgementTracker -[IDSQuickSwitchAcknowledgementTracker identifierForServiceDelegate:]  (serviceDelegate: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone companion_proxy(IDS)[7498] <Notice>: IDSQuickSwitchAcknowledgementTracker -[IDSQuickSwitchAcknowledgementTracker stopAwaitingAcknowledgementFromServiceDelegateWithIdentifier:]  (delegateIdentifier: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone notification_proxy(MobileSystemServices)[7502] <Notice>: 0x16f74b000 -[MNPLockdownConnection receiveMessage]: lockdown_receive_message error!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone lockdownd[7487] <Notice>: failed to get host service connection - invalid socket
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone trustd[2477] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone trustd[2477] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone mobile_installation_proxy(MobileInstallation)[7512] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:1:1:Beginning uninstall for com.apple.test.WebDriverAgentRunner-Runner with options (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone mobile_installation_proxy(MobileCoreServices)[7512] <Notice>: setting operationType to LSOperationTypeUninstallApplication from options (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone mobile_installation_proxy(MobileCoreServices)[7512] <Notice>: created clientUninstaller for type UninstallPlaceholder
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone lsd(MobileInstallation)[2470] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:1:1:Uninstall com.apple.test.WebDriverAgentRunner-Runner with options (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone lsd(MobileCoreServices)[2470] <Notice>: Sending applicationsWillUninstall: for <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone UserEventAgent(MobileCoreServices)[2409] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone profiled(MobileCoreServices)[7241] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone bluetoothd(MobileCoreServices)[2464] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone passd(MobileCoreServices)[2513] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone SpringBoard(MobileCoreServices)[2441] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone SpringBoard(FrontBoard)[2441] <Notice>: -[FBApplicationLibrary applicationsWillUninstall:] com.apple.test.WebDriverAgentRunner-Runner
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone nsurlsessiond(MobileCoreServices)[2484] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone routined(MobileCoreServices)[2417] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone coreduetd(MobileCoreServices)[7520] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone atc(MobileCoreServices)[7280] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone dasd(MobileCoreServices)[2485] <Notice>: LaunchServices observer: Will uninstall <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone installd(MobileSystemServices)[7514] <Notice>: 0x16f04f000 -[MIClientConnection uninstallIdentifiers:withOptions:completion:]: Uninstall requested by lsd (pid 2470) for identifier com.apple.test.WebDriverAgentRunner-Runner with options: (null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone installd(MobileInstallation)[7514] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:7:11:1:1:Start : Uninstall (Application)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone assertiond[2452] <Notice>: Request to create termination assertion <BKSTerminationAssertionCreateEvent: 0x100832320; Identifier: 7514-5A5253AA-D13F-4064-99AD-21E039BA86A0; Name: FBSApplicationTerminationAssertion; Target BundleID: com.apple.test.WebDriverAgentRunner-Runner; Efficacy: Unconditional> from client <BKClientHandle: 0x10092df30; installd:7514; connections: 1>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone assertiond[2452] <Notice>: Acquisition success for assertion <private>: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone installd(AssertionServices)[7514] <Notice>: Acquired termination assertion for event <BKSTerminationAssertionCreateEvent: 0x135e2ffc0; Identifier: 7514-5A5253AA-D13F-4064-99AD-21E039BA86A0; Name: FBSApplicationTerminationAssertion; Target BundleID: com.apple.test.WebDriverAgentRunner-Runner; Efficacy: Unconditional>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone installd(MobileSystemServices)[7514] <Notice>: 0x16f04f000 +[MIContainer allContainersForIdentifier:options:error:]: 389: No bundle container found for identifier com.apple.test.WebDriverAgentRunner-Runner
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone installd(MobileInstallation)[7514] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:7:11:2:0:Fail (End) : Uninstall (Application)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone assertiond[2452] <Notice>: Client relinquished <BKTerminationAssertion: 0x10093d210; "FBSApplicationTerminationAssertion" (Unconditional); 7514:(null) id:\M-b\M^@\M-&21E039BA86A0>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone assertiond[2452] <Notice>: -[BKAssertion dealloc] - <0x10093d210>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone lsd(MobileInstallation)[2470] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:2:0:MobileInstallation did not uninstall any apps, ignoring
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone mobile_installation_proxy(MobileInstallation)[7512] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:2:0:_LSInstallationManager uninstall:withCompletionBlock finished with error Error Domain=LSApplicationWorkspaceErrorDomain Code=111 "(null)" UserInfo={CFBundleIdentifier=com.apple.test.WebDriverAgentRunner-Runner, optionsDict={
+[iOSLog] [IOS_SYSLOG_ROW] }}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone mobile_installation_proxy(MobileInstallation)[7512] <Notice>: com.apple.test.WebDriverAgentRunner-Runner:5:3:2:0:Received NothingToUninstallError, not sending notifications
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:57 Boazs-iPhone mobile_installation_proxy(MobileCoreServices)[7512] <Notice>: Connection invalidated to installationCallbackInterface
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:58 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:58 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 2A 00 80 03 04 04 EF BC 51 00 1E 00 11 08 00 83 05 00 00 96 FF FF FF 14 06 00 BD F2 9D FF B6 00 A2 01 00 64 A4 03 00 01 64 00']
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:59 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:41:59 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -60 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:00 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:01 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:02 Boazs-iPhone CommCenter(libATCommandStudioDynamic.dylib)[2466] <Notice>: QMI: Svc=0x03(NAS) Ind MsgId=0x0051 Bin=['01 2A 00 80 03 04 04 F0 BC 51 00 1E 00 11 08 00 83 05 00 00 96 FF FF FF 14 06 00 BE F3 9E FF 52 00 A2 01 00 64 A4 03 00 01 64 00']
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:02 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:03 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:04 Boazs-iPhone symptomsd(SymptomEvaluator)[2508] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:04 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:04 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:04 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Rescoring all 165 activities [<private>]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:04 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.suggestions.harvest:948530:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:04 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.locationd.MicroLocationLearning:1E8CB5:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.suggestions.sqlentitystore.cacheprecomputation:15DB59:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.suggestd.identityanalysis:F2A511:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.suggestd.pmltraining:F88312:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.healthd.sync.cloud.periodic:24E5E3:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:32.420000, denominator:40.420000, FinalDecision: Can Proceed FinalScore: 0.802078}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.sync.cloud.periodic:24E5E3' has compatibility score of 1.000000 with 'com.apple.widgetRefresh.refresh:98CBE9'. Relaxing scores.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.sync.cloud.periodic:24E5E3' CurrentScore: 0.802078, ThresholdScore: 0.034863 DecisionToRun:1
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.securityd.daily:E2D777:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:18.020000, denominator:26.020000, FinalDecision: Can Proceed FinalScore: 0.692544}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.securityd.daily:E2D777' CurrentScore: 0.692544, ThresholdScore: 0.871676 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.EscrowSecurityAlert.daily:4EB15D:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:18.020000, denominator:26.020000, FinalDecision: Can Proceed FinalScore: 0.692544}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.EscrowSecurityAlert.daily:4EB15D' CurrentScore: 0.692544, ThresholdScore: 0.871676 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.atc.events:B87994:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:18.020000, denominator:26.020000, FinalDecision: Can Proceed FinalScore: 0.692544}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.atc.events:B87994' CurrentScore: 0.692544, ThresholdScore: 0.889450 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.fetch.net.whatsapp.WhatsApp:CAEA32:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: ApplicationPolicy, policyWeight: 50.000, response: {Decision: Can Proceed, Score: 0.35}}
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 5.000, response: {Decision: Can Proceed, Score: 0.60}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:46.987670, denominator:81.310000, FinalDecision: Can Proceed FinalScore: 0.577883}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.fetch.net.whatsapp.WhatsApp:CAEA32' has compatibility score of 1.000000 with 'com.apple.widgetRefresh.refresh:98CBE9'. Relaxing scores.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.fetch.net.whatsapp.WhatsApp:CAEA32' CurrentScore: 0.577883, ThresholdScore: 0.090816 DecisionToRun:1
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: With <private> ...Tasks running in group com.apple.backgroundAppRefresh are 1!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.fetch.com.tinyspeck.chatlyio:9E1512:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: ApplicationPolicy, policyWeight: 50.000, response: {Decision: Must Not Proceed, Score: 0.00}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.parsecd.flusher.background:056126:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.parsecd.flusher.background:056126' CurrentScore: 0.703923, ThresholdScore: 0.374759 DecisionToRun:1
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.message.fileCompressionQueueActivity:0DF5DF:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.message.fileCompressionQueueActivity:0DF5DF' CurrentScore: 0.703923, ThresholdScore: 0.374759 DecisionToRun:1
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.healthd.awd-submission-manager.sleep-alarm-daily:C6DBEB:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.awd-submission-manager.sleep-alarm-daily:C6DBEB' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.cloudkit.recordCachePool.expireRecords:374434:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.cloudkit.recordCachePool.expireRecords:374434' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.duetexpertd.saslogging:FB8865:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.duetexpertd.saslogging:FB8865' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.wifimanager.GeoTagsRetentionActivity:10F209:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.wifimanager.GeoTagsRetentionActivity:10F209' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.online-auth-agent.denylist-update:D203EC:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.online-auth-agent.denylist-update:D203EC' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.assetsd.periodicmaintenance:998015:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.ondemandd.PeriodicLaunchServicesSyncActivity:A2DA2A:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.ondemandd.PeriodicLaunchServicesSyncActivity:A2DA2A' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.routined.purge:485479:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.routined.purge:485479' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.CacheDelete.daily:3F71D3:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.CacheDelete.daily:3F71D3' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.routined.assets:C033DD:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.routined.assets:C033DD' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.silhouette.compute:C04891:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.silhouette.compute:C04891' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.telephonyutilities.callservicesd.calldirectorymaintenance.daily:A6A892:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.telephonyutilities.callservicesd.calldirectorymaintenance.daily:A6A892' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.suggestd.sendrtc:50633E:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.suggestd.sendrtc:50633E' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.quicklook.cloudThumbnailDatabaseCleanup:B3E06B:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.quicklook.cloudThumbnailDatabaseCleanup:B3E06B' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.siri.xpc_activity.heartbeat:A8D9E1:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.siri.xpc_activity.heartbeat:A8D9E1' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.voiced:482B77:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.voiced:482B77' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.DifferentialPrivacy.StorageCulling:B9905B:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.DifferentialPrivacy.ReportFilesMaintenance:A57741:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 20.000, response: {Decision: Must Not Proceed, Score: 0.00, Rationale: [{deviceActivity == 1}]}}
+[iOSLog] [IOS_SYSLOG_ROW]  ], FinalDecision: Must Not Proceed}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.SymptomFramework.MaintenanceActivity.Daily:DB73AB:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.SymptomFramework.MaintenanceActivity.Daily:DB73AB' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PersonalizationPortrait.CoreRoutineImport:1D0ED1:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PersonalizationPortrait.CoreRoutineImport:1D0ED1' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PersonalizationPortrait.TTLBasedDonationCleanup:52F25A:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PersonalizationPortrait.TTLBasedDonationCleanup:52F25A' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PersonalizationPortrait.KnowledgeStoreCleanup:A9BA7D:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PersonalizationPortrait.KnowledgeStoreCleanup:A9BA7D' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PersonalizationPortrait.MetricsLogging:257DB7:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PersonalizationPortrait.MetricsLogging:257DB7' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PPTopicExtractionPlugin.CheckContextBlacklist:73B5AE:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PPTopicExtractionPlugin.CheckContextBlacklist:73B5AE' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PPTopicExtractionPlugin.DailyMetricsLogging:75A495:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PPTopicExtractionPlugin.DailyMetricsLogging:75A495' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.proactive.PPTopicExtractionPlugin.WeeklyDataCollection:77B875:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.proactive.PPTopicExtractionPlugin.WeeklyDataCollection:77B875' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.healthd.companion-achievement-manager:A16D1B:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.companion-achievement-manager:A16D1B' CurrentScore: 0.703923, ThresholdScore: 0.879614 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.healthd.awd-submission-manager.database-stats:E6B995:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.awd-submission-manager.database-stats:E6B995' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.healthd.awd-submission-manager.sleep-alarm-monthly:DD5B24:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.awd-submission-manager.sleep-alarm-monthly:DD5B24' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.healthd.awd-submission-manager.weekly:208799:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:19.020000, denominator:27.020000, FinalDecision: Can Proceed FinalScore: 0.703923}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.healthd.awd-submission-manager.weekly:208799' CurrentScore: 0.703923, ThresholdScore: 0.920873 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.bird.transmogrify:3083BC:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.bird.transmogrify:3083BC' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.mobileassetd.metadata-update:E855E0:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.mobileassetd.metadata-update:E855E0' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.searchd.indexmaintenance.NSFileProtectionCompleteUntilFirstUserAuthentication:527F4B:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:29.020000, denominator:37.020000, FinalDecision: Can Proceed FinalScore: 0.783901}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.searchd.indexmaintenance.NSFileProtectionCompleteUntilFirstUserAuthentication:527F4B' CurrentScore: 0.783901, ThresholdScore: 0.935494 DecisionToRun:0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: com.apple.mobilemail.fetchAfterUnlock:6C6450:[
+[iOSLog] [IOS_SYSLOG_ROW] 	{name: DeviceActivityPolicy, policyWeight: 10.000, response: {Decision: Can Proceed, Score: 0.20}}
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:45.420000, denominator:53.420000, FinalDecision: Can Proceed FinalScore: 0.850243}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.mobilemail.fetchAfterUnlock:6C6450' has compatibility score of 1.000000 with 'com.apple.widgetRefresh.refresh:98CBE9'. Relaxing scores.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: 'com.apple.mobilemail.fetchAfterUnlock:6C6450' CurrentScore: 0.850243, ThresholdScore: 0.682025 DecisionToRun:1
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Running activities : <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: NO LONGER RUNNING [Not in application -> activity mapping] com.apple.fetch.net.whatsapp.WhatsApp:CAEA32 ...Tasks running in group [com.apple.backgroundAppRefresh] are 0!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: STARTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Setting timer (isWaking=1, activityRequiresWaking=0) between <private> and <private> for <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: STARTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: STARTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: STARTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Initiating XPC Activity: com.apple.message.fileCompressionQueueActivity
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Initiating XPC Activity: com.apple.healthd.sync.cloud.periodic
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Initiating XPC Activity: com.apple.mobilemail.fetchAfterUnlock
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Initiating XPC Activity: com.apple.parsecd.flusher.background
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail(Message)[7481] <Notice>: #FileCompressionQueue Running File Compression Queue Activity. 40 files in the queue
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Completed XPC Activity: com.apple.mobilemail.fetchAfterUnlock
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: COMPLETED com.apple.mobilemail.fetchAfterUnlock:6C6450 <private>!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Attempting to acquire assertion for MobileMail:7481: <BKProcessAssertion: 0x10093d210; "com.apple.mobilemail.services.connection" (finishTaskUnbounded:inf); id:\M-b\M^@\M-&94E6876C4E30>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Add assertion: <BKProcessAssertion: 0x10093d210; id: 7481-F5676F59-3682-4846-8D17-94E6876C4E30; name: com.apple.mobilemail.services.connection; state: active; reason: finishTaskUnbounded; duration: infs> {
+[iOSLog] [IOS_SYSLOG_ROW]     owner = <BSProcessHandle: 0x100952fa0; MobileMail:7481; valid: YES>;
+[iOSLog] [IOS_SYSLOG_ROW]     flags = preventSuspend, preventThrottleDownCPU, preventSuspendOnSleep;
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Activate assertion: <BKProcessAssertion: 0x10093d210; "com.apple.mobilemail.services.connection" (finishTaskUnbounded:inf); id:\M-b\M^@\M-&94E6876C4E30>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Setting jetsam priority to 3 [0x3000]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: Client relinquished <BKProcessAssertion: 0x10093d210; "com.apple.mobilemail.services.connection" (finishTaskUnbounded:inf); id:\M-b\M^@\M-&94E6876C4E30>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Deactivate assertion: <BKProcessAssertion: 0x10093d210; "com.apple.mobilemail.services.connection" (finishTaskUnbounded:inf); id:\M-b\M^@\M-&94E6876C4E30>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] dump all assertions HWM:7 (deactivateAssertion): {
+[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100946230; "Continuous Background Running" (continuous:inf); id:\M-b\M^@\M-&7B253234E424> [active]
+[iOSLog] [IOS_SYSLOG_ROW] }
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Scheduling allow-idle-sleep timer with interval: 180.0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Setting jetsam priority to 0 [0x2000]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: [MobileMail:7481] Remove assertion: <BKProcessAssertion: 0x10093d210; "com.apple.mobilemail.services.connection" (finishTaskUnbounded:inf); id:\M-b\M^@\M-&94E6876C4E30>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone assertiond[2452] <Notice>: -[BKAssertion dealloc] - <0x10093d210>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch MFMailUserEventAgent request fetch with type 16
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Autofetch beginning. Visible stores are <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Network stack is up
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch should fetch <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active: !pushCapable, !fetchOnManual, and !manual style
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch should fetch <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active: !pushCapable, !fetchOnManual, and !manual style
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch WiFi up: YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Warning #Autofetch Should not auto fetch <LocalAccount 0x1c01823c0> ID=(null) active=active
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch should fetch <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active: !pushCapable, !fetchOnManual, and !manual style
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch should fetch <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active: !pushCapable, !fetchOnManual, and !manual style
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch autofetch state changing: Idle => WaitingForJobList
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(MobileMailUEA)[2409] <Notice>: fetchWithType after unlock returned (didFetch: YES)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Unregistered XPC Activity: com.apple.mobilemail.fetchAfterUnlock
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: com.apple.healthd.sync.cloud.periodic fired with activity <xpc object>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active is pushing 2 folders
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Push Incoming] account=<GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Skipping visible <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Preparing to autofetch <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active uid <MFMailboxUid 0x1c40e8200> ID=7 type=SentMessagesUid attributes=0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Fetch Initiated] account=<GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active mailboxPath=<private> mailbox=<MFMailboxUid 0x1c40e8200> ID=7 type=SentMessagesUid attributes=0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active is pushing 2 folders
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Push Incoming] account=<GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Skipping visible <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Preparing to autofetch <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active uid <MFMailboxUid 0x1c00f0880> ID=14 type=SentMessagesUid attributes=0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Fetch Initiated] account=<GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active mailboxPath=<private> mailbox=<MFMailboxUid 0x1c00f0880> ID=14 type=SentMessagesUid attributes=0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Completed XPC Activity: com.apple.parsecd.flusher.background
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch autofetch state changing: WaitingForJobList => JoiningBackgroundFetches
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: COMPLETED com.apple.parsecd.flusher.background:056126 <private>!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Rescheduling XPC Activity: com.apple.parsecd.flusher.background
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: SUBMITTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Submitted Activity: com.apple.parsecd.flusher.background:933CED <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Activity <private>: Optimal Score 0.3893 at <private> (Valid Until: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Autofetching <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active uid <MFMailboxUid 0x1c40f2200> ID=1 type=InboxUid attributes=0 remoteID (null) fetchSize 250 isUserRequested NO isForegroundRequest NO
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Autofetch] account=<GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active remoteID=(null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: <HDCloudSyncCoordinator: 0x100d482e0>: Cloud Sync Triggered to Perform Periodic Activity: <HDPeriodicActivity: 0x100d76140>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: <HDCloudSyncCoordinator: 0x100d482e0>: check for last sync date is disabled
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Autofetching <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active uid <MFMailboxUid 0x1c00f0680> ID=12 type=InboxUid attributes=0 remoteID (null) fetchSize 250 isUserRequested NO isForegroundRequest NO
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Autofetch] account=<GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active remoteID=(null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: <HDCloudSyncCoordinator: 0x100d482e0>: Cloud Sync triggered, but is not permitted. Error Domain=com.apple.healthkit Code=701 "Health cloud sync is disabled for this Apple ID." UserInfo={NSLocalizedDescription=Health cloud sync is disabled for this Apple ID.}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Error>: [com.apple.healthd.sync.cloud.periodic] failed with an ignorable error after 0.041s: Error Domain=com.apple.healthkit Code=701 "Health cloud sync is disabled for this Apple ID." UserInfo={NSLocalizedDescription=Health cloud sync is disabled for this Apple ID.}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Error>: [com.apple.healthd.sync.cloud.periodic] failed but will retry on the normal schedule with minimum interval 0.00s: Error Domain=com.apple.healthkit Code=701 "Health cloud sync is disabled for this Apple ID." UserInfo={NSLocalizedDescription=Health cloud sync is disabled for this Apple ID.}.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: [com.apple.healthd.sync.cloud.periodic] attempt failed; new interval: 86400.000000s
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: Cloud sync has not yet completed an initial push or pull; reducing retry interval to 300
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone healthd(HealthDaemon)[2420] <Notice>: Cloud sync has not yet completed an initial pull; disabling Class A availability requirement.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Completed XPC Activity: com.apple.healthd.sync.cloud.periodic
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: COMPLETED com.apple.healthd.sync.cloud.periodic:24E5E3 <private>!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Rescheduling XPC Activity: com.apple.healthd.sync.cloud.periodic
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: SUBMITTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Submitted Activity: com.apple.healthd.sync.cloud.periodic:6D3C6E <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Activity <private>: Optimal Score 0.3840 at <private> (Valid Until: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail(Message)[7481] <Notice>: #FileCompressionQueue Compressed all files in File Compression Queue
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone MobileMail(Message)[7481] <Notice>: #FileCompressionQueue Exiting Compression Queue Activity. 0 files left in the queue
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Completed XPC Activity: com.apple.message.fileCompressionQueueActivity
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: COMPLETED com.apple.message.fileCompressionQueueActivity:0DF5DF <private>!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(com.apple.cts)[2409] <Notice>: Rescheduling XPC Activity: com.apple.message.fileCompressionQueueActivity
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone UserEventAgent(DuetActivityScheduler)[2409] <Notice>: SUBMITTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Submitted Activity: com.apple.message.fileCompressionQueueActivity:A0C2C4 <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:05 Boazs-iPhone dasd(DuetActivitySchedulerDaemon)[2485] <Notice>: Activity <private>: Optimal Score 0.3708 at <private> (Valid Until: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone sharingd[2447] <Notice>: Successfully decrypted advertisement (sharing flags + advertisementPayload): <0b5ceb6da96e4f667a26> => <08df1ea300a1072cb8bf1d98083d>, counter: 7903
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone sharingd[2447] <Notice>: Received a new advertisement <SFActivityAdvertisement: 0x100aed290, deviceUniqueID:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d98083d>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone useractivityd[2531] <Notice>: [PBOARD] Received pboard avalible advertisement
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone useractivityd(Sharing)[2531] <Notice>: [SFContinuityScanManager] Received advertisement <SFActivityAdvertisement: 0x145d52a90, deviceIdentifier:A1E81858-93C7-4E5B-87D5-57483AE8BC9E, advertisementPayload:<a1072cb8bf1d98083d>, options:{SFActivityAdvertiserOptionFlagCopyPasteKey = 1;SFActivityAdvertiserOptionMinorVersionKey = 0;SFActivityAdvertiserOptionVersionKey = 0;}, deviceName:Boaz\M-b\M^@\M^Ys MacBook Pro, deviceModelIdentifier:MacBookPro11,4>. Handled:YES
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone useractivityd[2531] <Notice>: Unable to determine application on this device for advertisement a1072cb8bf1d98083d/<private>, so ignoring this received activity.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone useractivityd[2531] <Notice>: # RECEIVED advertisement, a1072cb8bf1d98083d type=<private> -> <private>, (null), from <private>/<private> options={ SFActivityAdvertiserOptionFlagCopyPasteKey = 1; SFActivityAdvertiserOptionMinorVersionKey = 0; SFActivityAdvertiserOptionVersionKey = 0;}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone analyticsd[2475] <Notice>: [<private>] no observers; dropped.
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone MobileMail[7481] <Notice>: #AccountStatusManager Setting account <GmailAccount 0x1014072e0> ID=9ADE3110-E413-4684-87B9-892AEA4FEAE3 active=active with status 3 and error (null).
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone accountsd(AccountsDaemon)[2497] <Notice>: "<private> (<private>) received"
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone MobileMail(Accounts)[7481] <Notice>: "The connection to ACDAccountStore was invalidated."
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone MobileMail[7481] <Notice>: #AccountStatusManager Setting account <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active with status 3 and error (null).
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone accountsd(AccountsDaemon)[2497] <Notice>: "<private> (<private>) received"
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone MobileMail[7481] <Notice>: #Autofetch Autofetching <GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active uid <MFMailboxUid 0x1c40e8200> ID=7 type=SentMessagesUid attributes=0 remoteID (null) fetchSize 200 isUserRequested NO isForegroundRequest NO
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone MobileMail[7481] <Notice>: #Power [Autofetch] account=<GmailAccount 0x101304af0> ID=9AC8B789-4061-4FAE-9EC9-0F297F131ED8 active=active remoteID=(null)
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone MobileMail(Accounts)[7481] <Notice>: "The connection to ACDAccountStore was invalidated."
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:06 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: SimpleTimer <PCSimpleTimer: 0x106d80410> has fired
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: Invalidating simple timer <PCSimpleTimer: 0x106d80410>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: Disabling power monitoring for <PCSimpleTimer: 0x106d80410> - 9 timers
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: PersistentTimer <PCPersistentTimer: 0x106b8d090> has fired
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: Invalidating timer <PCPersistentTimer: 0x106b8d090>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: <PCPersistentTimer: 0x104f573e0> created <PCSimpleTimer: 0x104f16530>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: Started simple timer <PCSimpleTimer: 0x104f16530> with fire date [2017-10-25 19:42:07 +0300]
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: <PCSimpleTimer: 0x104f16530> created preventSleepTimer <PCDispatchTimer: 0x101f87520> and fireTimer <PCDispatchTimer: 0x101f87cd0> on queue <OS_dispatch_queue: PCSimpleTimer-timerQ>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: <PCInterfaceUsabilityMonitor: 0x101de22b0> [WWAN](pdp_ip0): isInterfaceUsable? YES reachable YES linkQuality 100 isNetworkCaptive? NO
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: <PCPersistentTimer: 0x104f573e0> calculating _earlyFireDate. powerStateDetectionSupported = YES = (detectionSupported(YES) && (wwanIsUp(YES) || ! internetReachable(YES)))
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: <PCPersistentTimer: 0x104f573e0> Device is plugged in, overriding earlyFireProportion to be 1.0
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: <PCPersistentTimer: 0x104f573e0> Calculated minimum fire date [2017-10-25 19:42:07 +0300] (100%) with fire date [2017-10-25 19:42:07 +0300], start date [2017-10-25 14:42:07 +0300], minimum early fire proportion 0.9, power state detection supported: yes, in high power state: no
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd(PersistentConnection)[2779] <Notice>: Enabling power monitoring for <PCSimpleTimer: 0x104f16530> - 10 timers
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":6, "loadFactor":"0.998639"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817046961608, "end_mach":5817046999386, "elapsed_s":"0.001574083"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":6, "loadFactor":"0.998639"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817047113194, "end_mach":5817047124949, "elapsed_s":"0.000489792"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":6, "loadFactor":"0.998639"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817047193108, "end_mach":5817047202046, "elapsed_s":"0.000372417"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":6, "loadFactor":"0.998639"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817047223648, "end_mach":5817047229229, "elapsed_s":"0.000232542"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":6, "loadFactor":"0.998639"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817047380658, "end_mach":5817047389890, "elapsed_s":"0.000384667"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":6, "loadFactor":"0.998639"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817047412955, "end_mach":5817047418921, "elapsed_s":"0.000248583"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "path":"\134/var\134/root\134/Library\134/Caches\134/locationd\134/cache_encryptedB.db", "page_count":4408, "freelist_count":8, "loadFactor":"0.998185"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"reduceFreePages", "event":"elapsed", "begin_mach":5817050017836, "end_mach":5817050027308, "elapsed_s":"0.000394667"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone nsurlsessiond[2484] <Notice>: Triggering periodic update to powerlog for client <private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone locationd[2779] <Notice>: {"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb"}
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone coreduetd[7520] <Notice>: CDDBatteryMonitor:	received batterycallback, currentPercentage:99.000000!
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[iOSLog] [IOS_SYSLOG_ROW] Oct 25 14:42:07 Boazs-iPhone identityservicesd[2435] <Notice>: calling continuityDidDiscoverType:Activity withData:<private> fromPeer:<private>
+[XCUITest] Error: Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at XCUITestDriver.quitAndUninstall$ (../../lib/driver.js:381:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+ Error: Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at XCUITestDriver.quitAndUninstall$ (../../lib/driver.js:381:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[MJSONWP] Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: "xcodebuild failed with code 65". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+    at XCUITestDriver.quitAndUninstall$ (../../lib/driver.js:381:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[HTTP] <-- POST /wd/hub/session 500 18189 ms - 470
