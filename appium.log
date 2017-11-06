@@ -1,675 +1,149 @@
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath B15A70AF-56C7-41E6-9D82-C5D650800156 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: clientProperties 83C3B91B-CA97-41DA-AD10-5FB4E37B26B5 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: resolvePlayerPath B15A70AF-56C7-41E6-9D82-C5D650800156 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: playbackQueue 7533F2C8-369D-4948-A9B9-7A29186C0282/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath CB7C1383-9C06-4284-9DDB-2EE6C450E138 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting to resolve playerPath origin-0/client-(null)-0/player-(null) -> origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath CB7C1383-9C06-4284-9DDB-2EE6C450E138 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: resolvePlayerPath CB7C1383-9C06-4284-9DDB-2EE6C450E138 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0009 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: playbackState 4B8497E5-4858-44B0-A57E-0B9343076102 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath EE8ED495-18EE-498D-A6F1-07A95BB130B4 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0078 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: supportedCommands EAF8E4D4-9B39-49FB-8289-310E44152FF6 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e27630, bundleIdentifier = coreduetd, pid = 106, processName = coreduetd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request 7533F2C8-369D-4948-A9B9-7A29186C0282/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request 7533F2C8-369D-4948-A9B9-7A29186C0282/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: playbackQueue 7533F2C8-369D-4948-A9B9-7A29186C0282/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0097 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: playbackState 4B8497E5-4858-44B0-A57E-0B9343076102 returned Playing with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0114 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: clientProperties 83C3B91B-CA97-41DA-AD10-5FB4E37B26B5 returned <_MRNowPlayingClientProtobuf: 0x100fe05a0> {
-[iOSLog] [IOS_SYSLOG_ROW]     bundleIdentifier = "com.yourcompany.iReshet";
-[iOSLog] [IOS_SYSLOG_ROW]     displayName = "Zapp-App";
-[iOSLog] [IOS_SYSLOG_ROW]     nowPlayingVisibility = VisibleWhenBackgrounded;
-[iOSLog] [IOS_SYSLOG_ROW]     processIdentifier = 337;
-[iOSLog] [IOS_SYSLOG_ROW]     processUserIdentifier = 501;
-[iOSLog] [IOS_SYSLOG_ROW]     tintColor =     {
-[iOSLog] [IOS_SYSLOG_ROW]         alpha = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         blue = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         green = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         red = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]     };
-[iOSLog] [IOS_SYSLOG_ROW] } with error (null) for origin-0/client-(null)-0/player-(null) in 0.0124 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: supportedCommands EAF8E4D4-9B39-49FB-8289-310E44152FF6 returned with 12 command(s) with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0212 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 2BF71305-C482-49ED-9853-F06C01F8A715 for origin-1280262988/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 2BF71305-C482-49ED-9853-F06C01F8A715 for origin-1280262988/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 2BF71305-C482-49ED-9853-F06C01F8A715 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-(null)-0/player-(null) in 0.0009 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 1B802D6F-56B4-49BF-87FA-288377D9A8A7 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 1B802D6F-56B4-49BF-87FA-288377D9A8A7 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackQueue 65A44133-A6B7-4A71-A677-6BD7359D848C/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request 65A44133-A6B7-4A71-A677-6BD7359D848C/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackQueue 65A44133-A6B7-4A71-A677-6BD7359D848C/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0042 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath E753A024-5583-4AF0-ACF5-0E91542A1FCA for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request 65A44133-A6B7-4A71-A677-6BD7359D848C/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting to resolve playerPath origin-0/client-(null)-0/player-(null) -> origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath E753A024-5583-4AF0-ACF5-0E91542A1FCA returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0032 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: supportedCommands DFB7C40C-A596-4380-8EFC-097465046839 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: supportedCommands DFB7C40C-A596-4380-8EFC-097465046839 returned with 12 command(s) with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0061 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone symptomsd(SymptomEvaluator)[135] <Notice>: L2 Metrics on ifname en0: rssi: -62 (txFrames/txReTx/txFail) 780/404/0 -> (was/is) 0/0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <2DA5F31E-5FFA-4382-AD5B-B555FB6B9512>.<1> received response, status 304 content U
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC Enabling TLS [33:0x1c0173080]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [33:0x1c0173080]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <3262E7E8-752C-4368-80C4-E60CC2F07CFC>.<1> setting up Connection 33
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC Enabling TLS [34:0x1c4177100]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [34:0x1c4177100]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <4F0334D1-86EE-4135-8B31-0033A48165E8>.<1> setting up Connection 34
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [35:0x1c4176080]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:40 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <97AF8888-9C1E-45DD-A516-ECA1C7334B80>.<1> setting up Connection 35
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [34:0x1c4177100]: 1, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [35:0x1c4176080]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [35:0x1c4176080]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <97AF8888-9C1E-45DD-A516-ECA1C7334B80>.<1> now using Connection 35
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <97AF8888-9C1E-45DD-A516-ECA1C7334B80>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [34:0x1c4177100]: 2, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [34:0x1c4177100]: 11, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [34:0x1c4177100]: 12, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [34:0x1c4177100]: 14, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <97AF8888-9C1E-45DD-A516-ECA1C7334B80>.<1> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <97AF8888-9C1E-45DD-A516-ECA1C7334B80>.<1> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APAccount.m:236 -[APAccount stateMachine:didEnterState:toState:afterEvent:withArguments:]] model_state_downloading
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APModel.m:393 -[APModel stateMachine:didChangeFromState:toState:afterEvent:withArguments:]] APAccount: 392 did change from state model_state_initial to state model_state_downloading after event model_event_download.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone trustd[91] <Notice>: ocsp responder: (null) did not include status of requested cert
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [36:0x1c41756c0]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <1243DA65-37DF-4BE0-86F9-9C2398C4B757>.<1> setting up Connection 36
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone trustd[91] <Notice>: ocsp responder: (null) did not include status of requested cert
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [33:0x1c0173080]: 1, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone trustd[91] <Notice>: ocsp responder: (null) did not include status of requested cert
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone trustd[91] <Notice>: ocsp responder: (null) did not include status of requested cert
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Trust Result [34:0x1c4177100]: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC Enabling TLS [37:0x1c4173740]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [37:0x1c4173740]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EE49481D-8E38-4816-A2B9-83016C8409BF>.<1> setting up Connection 37
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [36:0x1c41756c0]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [36:0x1c41756c0]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <1243DA65-37DF-4BE0-86F9-9C2398C4B757>.<1> now using Connection 36
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <1243DA65-37DF-4BE0-86F9-9C2398C4B757>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [34:0x1c4177100]: 20, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [34:0x1c4177100]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [34:0x1c4177100]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [34:0x1c4177100]: 8
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Handshake Complete [34:0x1c4177100]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <4F0334D1-86EE-4135-8B31-0033A48165E8>.<1> now using Connection 34
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <4F0334D1-86EE-4135-8B31-0033A48165E8>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [33:0x1c0173080]: 2, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [33:0x1c0173080]: 11, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [33:0x1c0173080]: 12, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [33:0x1c0173080]: 14, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Trust Result [33:0x1c0173080]: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <1243DA65-37DF-4BE0-86F9-9C2398C4B757>.<1> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <1243DA65-37DF-4BE0-86F9-9C2398C4B757>.<1> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APAccount.m:236 -[APAccount stateMachine:didEnterState:toState:afterEvent:withArguments:]] model_state_loaded
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APModel.m:393 -[APModel stateMachine:didChangeFromState:toState:afterEvent:withArguments:]] APAdvertiser: (null) did change from state model_state_initial to state model_state_downloading after event model_event_download.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [37:0x1c4173740]: 1, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APModel.m:393 -[APModel stateMachine:didChangeFromState:toState:afterEvent:withArguments:]] APAccount: 392 did change from state model_state_downloading to state model_state_loaded after event model_event_finished.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [38:0x1c01741c0]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <FCF2AD20-1271-4DE3-8D90-B49007DFA16C>.<1> setting up Connection 38
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APApplicasterController.m:408 -[APApplicasterController modelDidFinishLoadingNotification:]] Successfully loaded [APAccount]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [33:0x1c0173080]: 20, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [33:0x1c0173080]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [33:0x1c0173080]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [33:0x1c0173080]: 8
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Handshake Complete [33:0x1c0173080]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <3262E7E8-752C-4368-80C4-E60CC2F07CFC>.<1> now using Connection 33
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <3262E7E8-752C-4368-80C4-E60CC2F07CFC>.<1> sent request, body S
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(AirshipKit)[337] <Notice>: [E] +[UAConfig isProductionProvisioningProfile:] [Line 385] aps-environment value is not set. If this is not a simulator, ensure that the app is properly provisioned for push
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(AirshipKit)[337] <Notice>: Channel ID: 4ccb8e5a-0733-4cdd-a963-0ebcd20ecc42
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Error>: No valid 'aps-environment' entitlement string found for application 'com.yourcompany.iReshet': (null).
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting section info
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got section info [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got notification settings [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone identityservicesd[47] <Notice>: Tearing Down Global Link Due To Inactivity
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Got notification settings [ hasResult: 1 hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [38:0x1c01741c0]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [38:0x1c01741c0]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <FCF2AD20-1271-4DE3-8D90-B49007DFA16C>.<1> now using Connection 38
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <FCF2AD20-1271-4DE3-8D90-B49007DFA16C>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [37:0x1c4173740]: 2, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [37:0x1c4173740]: 11, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [37:0x1c4173740]: 12, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [37:0x1c4173740]: 14, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Trust Result [37:0x1c4173740]: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <FCF2AD20-1271-4DE3-8D90-B49007DFA16C>.<1> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <FCF2AD20-1271-4DE3-8D90-B49007DFA16C>.<1> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"CLLocationManager", "event":"activity", "_cmd":"initWithEffectiveBundleIdentifier:bundle:", "self":"0x1c0019a00", "identifier":"", "bundle":""}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0019a00", "property":"init", "new":{"previousAuthorizationStatusValid":false,"paused":false,"requestingLocation":false,"updatingVehicleSpeed":false,"desiredAccuracy":-1,"allowsBackgroundLocationUpdates":false,"dynamicAccuracyReductionEnabled":false,"distanceFilter":-1,"allowsLocationPrompts":true,"activityType":0,"persistentMonitoringEnabled":true,"pausesLocationUpdatesAutomatically":0,"updatingVehicleHeading":false,"batchingLocation":false,"showsBackgroundLocationIndicator":false,"updatingLocation":false,"requestingRanging":false,"updatingHeading":false,"previousAuthorizationStatus":0,"allowsMapCorrection":true,"matchInfoEnabled":false,"allowsAlteredAccessoryLocations":false,"updatingRanging":false,"courtesyPromptNeeded":false,"headingFilter":1}}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0019a00", "property":"lifecycle", "old":"0x0", "new":"0x1c42da080"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"_CLClientCreateWithBundleIdentifierAndPath", "event":"activity", "effectiveBundleIdentifier":"", "effectiveBundlePath":""}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"client allocated", "client":"0x113eef290"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"_CLClientCreateConnection", "event":"activity", "client":"0x113eef290"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"Sending cached messages to daemon", "event":"activity"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: #Warning No cached registration message
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0019a00", "property":"pausesLocationUpdatesAutomatically", "old":{"type":"decode failure","raw value":0,"expected type":"Generic"}, "new":{"type":"decode failure","raw value":5,"expected type":"Generic"}}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"CLLocationManager", "event":"activity", "_cmd":"setDelegate:", "self":"0x1c0019a00", "delegate":"0x1c0843b70"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <3262E7E8-752C-4368-80C4-E60CC2F07CFC>.<1> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <3262E7E8-752C-4368-80C4-E60CC2F07CFC>.<1> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APNotificationManager.m:165 -[APNotificationManager registerForRemoteNotifications]] -
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Setting 0 notification categories
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Requesting authorization with options 7
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Requesting token for remote notifications
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APModel.m:393 -[APModel stateMachine:didChangeFromState:toState:afterEvent:withArguments:]] APEndUserProfile: 0 did change from state model_state_initial to state model_state_downloading after event model_event_download.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBDataProvider: Invalidate bulletins in section com.yourcompany.iReshet for destinations 2
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBServer: Update bulletins in section com.yourcompany.iReshet for feed 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBDataProvider: Invalidate parameters for section com.yourcompany.iReshet
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Error>: No data found at /var/mobile/Library/SpringBoard/PushStore/com.yourcompany.iReshet.pushstore
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Returning 0 bulletins since Sun Oct 29 10:29:41 2017 (max 500)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBServer: Section com.yourcompany.iReshet responded with 0 bulletin requests to feed 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: Updating section com.yourcompany.iReshet with 0 new bulletins
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Requesting authorization with options 7
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: Current bulletins in this section: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting requested authorization
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting section info
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Error>: No valid 'aps-environment' entitlement string found for application 'com.yourcompany.iReshet': (null).
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got section info [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got requested authorization [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Updating authorization options: 7
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Enable notifications: 0 [authorizationOptions: 7]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting section info
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got section info [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Requested token for remote notifications [ didSucceed: 0 hasError: 1 hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Requested authorization [ didGrant: 1 hasError: 0 hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting section info
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got section info [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got notification settings [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Got notification settings [ hasResult: 1 hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Getting notification categories
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [39:0x1c4178c00]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <D3D1AC8D-0E70-4DE2-B3FF-032B379C1B10>.<1> setting up Connection 39
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Got 0 notification categories [ hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x103013000", "property":"lifecycle", "old":"0x0", "new":"0x103013000"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x103013000", "property":"clientName", "old":"", "new":"com.yourcompany.iReshet"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"Client visibility changed", "client":"com.yourcompany.iReshet", "is visible":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(ApplicasterSDK)[337] <Notice>: [HockeySDK] -[BITHockeyManager initializeModules]/677 [HockeySDK] Warning: The SDK should only be initialized once! This call is ignored.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(ApplicasterSDK)[337] <Notice>: [HockeySDK] -[BITHockeyManager startManager]/225 [HockeySDK] Warning: startManager should only be invoked once! This call is ignored.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Marking change", "clientKey":"com.yourcompany.iReshet", "reason":"In-use halo-effect", "assertionLevel":3, "coming":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Marking change", "clientKey":"com.yourcompany.iReshet", "reason":"In-use halo-effect", "assertionLevel":4, "coming":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Marking change", "clientKey":"com.yourcompany.iReshet", "reason":"In-use halo-effect", "assertionLevel":3, "coming":0}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: Client com.yourcompany.iReshet connected
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Client CLIUA level changed", "name":"com.yourcompany.iReshet", "assertedInUseLevel":4}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: Background indicator enabled for <private> is now <private> (was <private>)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"kCLConnectionMessageRegistration", "event":"activity", "this":"0x103013000", "registrationRequired":0, "registrationReceived":0}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: #Warning could not get resource URL for <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: #Warning issue retrieving localized strings for bundle '<private>'
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: #Warning could not get resource URL for <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: #Warning issue retrieving localized strings for bundle '<private>'
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: com.yourcompany.iReshet is creating a CLLocationManager, but does not have any NSLocation*UsageDescription keys
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"update client authorization mask", "name":"com.yourcompany.iReshet", "old":0, "new":0, "localAuthorizationChange":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [37:0x1c4173740]: 20, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [37:0x1c4173740]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [37:0x1c4173740]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <4F0334D1-86EE-4135-8B31-0033A48165E8>.<1> received response, status 304 content U
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [37:0x1c4173740]: 8
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Handshake Complete [37:0x1c4173740]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone locationd[61] <Notice>: {"msg":"kCLConnectionMessagePausesLocationUpdatesAutomatically", "event":"activity", "this":"0x103013000", "registrationRequired":1, "registrationReceived":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EE49481D-8E38-4816-A2B9-83016C8409BF>.<1> now using Connection 37
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EE49481D-8E38-4816-A2B9-83016C8409BF>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [HQMEManager.m:343 -[HQMEManager controllerDidChangeBroadcaster:]] -
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(Foundation)[337] <Notice>: *** -[NSKeyedUnarchiver initForReadingWithData:]: data is NULL
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Error] - [ZAZappAppManager.m:139 -[ZAZappAppManager application:didFailToRegisterForRemoteNotificationsWithError:]] Error Domain=NSCocoaErrorDomain Code=3000 "no valid \M-b\M^@\M^\aps-environment\M-b\M^@\M^] entitlement string found for application" UserInfo={NSLocalizedDescription=no valid \M-b\M^@\M^\aps-environment\M-b\M^@\M^] entitlement string found for application}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Debug] - [APModel.m:393 -[APModel stateMachine:didChangeFromState:toState:afterEvent:withArguments:]] APAdvertiser: (null) did change from state model_state_downloading to state model_state_loaded after event model_event_finished.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I New CTServerConnection from pid 337 (conn=0x15bfbb5f0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I CTServerConnection from pid 337[<private>] is named '<private>'.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I   ==== client 337 (<private>) registered for event kCTEventWirelessTechnologyChange(139) (now total 1)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I   ==== client 337 (<private>) registered for event kCTEventRegistrationDataStatus(55) (now total 2)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #E Client 337 (<private>) not permitted to register for event kCTEventIndicatorSignalStrength(16); ignored registration
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Error>: <private> XPC Entitlement Failed: 'public-signal-strength' entitlement required for <private>; dropping.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: client <private> HWM increased to 1 because of <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Attempting to acquire assertion for Zapp-App:337: <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Add assertion: <BKProcessAssertion: 0x100b45840; id: 337-CA3F77E0-0349-4FF4-98A9-DA35A221AFC9; name: "Called by UIKit, from <redacted>"; state: active; reason: finishTask; duration: 180.0s> {
-[iOSLog] [IOS_SYSLOG_ROW]     owner = <BSProcessHandle: 0x10083e7f0; Zapp-App:337; valid: YES>;
-[iOSLog] [IOS_SYSLOG_ROW]     flags = preventSuspend, preventIdleSleep, preventSuspendOnSleep;
+[HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"iPhone 7","xcodeOrgId":"49M4HHM3X6","udid":"dafbd6dbaec65d39845c61a957913bd118bddbbd","platformName":"iOS","showIOSLog":"true","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.0","autoAcceptAlerts":true,"bundleId":"com.yourcompany.iReshet"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 7","xcodeOrgId":"49M4HHM3X6","udid":"dafbd6dbaec65d39845c61a957913bd118bddbbd","platformName":"iOS","showIOSLog":"true","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.0","autoAcceptAlerts":true,"bundleId":"com.yourcompany.iReshet"},null,{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1509965867602 (12:57:47 GMT+0200 (EET))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.51.1) session
+[Appium] Capabilities:
+[Appium]   deviceName: 'iPhone 7'
+[Appium]   xcodeOrgId: '49M4HHM3X6'
+[Appium]   udid: 'dafbd6dbaec65d39845c61a957913bd118bddbbd'
+[Appium]   platformName: 'iOS'
+[Appium]   showIOSLog: 'true'
+[Appium]   autoLaunch: false
+[Appium]   xcodeSigningId: 'iPhone Developer'
+[Appium]   platformVersion: '11.0'
+[Appium]   autoAcceptAlerts: true
+[Appium]   bundleId: 'com.yourcompany.iReshet'
+[BaseDriver] Capability 'showIOSLog' changed from string to boolean. This may cause unexpected behavior
+[XCUITest] The capabilities 'autoAcceptAlerts' and 'autoDismissAlerts' do not work for XCUITest-based tests. Please adjust your alert handling accordingly.
+[BaseDriver] Session created with session id: af6d2116-76ee-4ea7-a3ad-a2650e31f6b1
+[debug] [XCUITest] Xcode version set to '9.1' (tools v9.0.1.0.1.1506734476)
+[debug] [XCUITest] iOS SDK Version set to '11.1'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1509965867650 (12:57:47 GMT+0200 (EET))
+[debug] [XCUITest] Available devices: dafbd6dbaec65d39845c61a957913bd118bddbbd
+[debug] [XCUITest] Creating iDevice object with udid 'dafbd6dbaec65d39845c61a957913bd118bddbbd'
+[XCUITest] Determining device to run tests on: udid: 'dafbd6dbaec65d39845c61a957913bd118bddbbd', real device: true
+[debug] [BaseDriver] Event 'appConfigured' logged at 1509965867804 (12:57:47 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'resetStarted' logged at 1509965867804 (12:57:47 GMT+0200 (EET))
+[debug] [XCUITest] Reset: running ios real device reset flow
+[debug] [BaseDriver] Event 'resetComplete' logged at 1509965867805 (12:57:47 GMT+0200 (EET))
+[debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+[debug] [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1509965867941 (12:57:47 GMT+0200 (EET))
+[XCUITest] Setting up real device
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.1\",\n      \"ip\" : \"192.168.70.111\"\n    },\n    \"build\" : {\n      \"time\" : \"Nov  6 2017 12:12:16\"\n    }\n  },\n  \"sessionId\" : \"EF740169-FE64-4FB0-B686-AB977DFE35C9\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] Detected WDA listening at 'http://localhost:8100/'. Setting WDA endpoint to 'http://localhost:8100/'
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1509965868141 (12:57:48 GMT+0200 (EET))
+[XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/'
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1509965868141 (12:57:48 GMT+0200 (EET))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.1\",\n      \"ip\" : \"192.168.70.111\"\n    },\n    \"build\" : {\n      \"time\" : \"Nov  6 2017 12:12:16\"\n    }\n  },\n  \"sessionId\" : \"EF740169-FE64-4FB0-B686-AB977DFE35C9\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.yourcompany.iReshet","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:50 Applicasters-iPhone symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"EFF49F5A-0EC7-4345-9923-3E4BB834F675","capabilities":{"device":"iphone","browserName":"ZappApp","sdkVersion":"11.1","CFBundleIdentifier":"com.yourcompany.iReshet"}},"sessionId":"EFF49F5A-0EC7-4345-9923-3E4BB834F675","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1509965871887 (12:57:51 GMT+0200 (EET))
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*dafbd6dbaec65d39845c61a957913bd118bddbbd' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Cannot find xcodebuild's process id, so unable to retrieve DerivedData folder path
+[XCUITest] No WebDriverAgent derived data available, so unable to set permissions on WDA attachments folder
+[debug] [BaseDriver] Event 'wdaPermsAdjusted' logged at 1509965871941 (12:57:51 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1509965871943 (12:57:51 GMT+0200 (EET))
+[debug] [XCUITest] Setting initial orientation to 'PORTRAIT'
+[debug] [JSONWP Proxy] Proxying [POST /orientation] to [POST http://localhost:8100/session/EFF49F5A-0EC7-4345-9923-3E4BB834F675/orientation] with body: {"orientation":"PORTRAIT"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"EFF49F5A-0EC7-4345-9923-3E4BB834F675","status":0}
+[debug] [BaseDriver] Event 'orientationSet' logged at 1509965872984 (12:57:52 GMT+0200 (EET))
+[Appium] New XCUITestDriver session created successfully, session af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1509965872985 (12:57:52 GMT+0200 (EET))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"deviceName":"iPhone 7","xcodeOrgId":"49M4HHM3X6","udid":"dafbd6dbaec65d39845c61a957913bd118bddbbd","platformName":"iOS","showIOSLog":"true","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.0","autoAcceptAlerts":true,"bundleId":"com.yourcompany.iReshet"}
+[HTTP] <-- POST /wd/hub/session 200 5385 ms - 551
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Rescoring all 153 activities [<private>]
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: com.apple.ap.adtrackingd.reconcile:E86E1A:[
+[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:40.753333, denominator:41.420000, FinalDecision: Can Proceed FinalScore: 0.983905}
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: 'com.apple.ap.adtrackingd.reconcile:E86E1A' CurrentScore: 0.983905, ThresholdScore: 0.069743 DecisionToRun:1
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Running activities : <private>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(DuetActivityScheduler)[21] <Notice>: STARTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Setting timer (isWaking=1, activityRequiresWaking=0) between <private> and <private> for <private>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Initiating XPC Activity: com.apple.ap.adtrackingd.reconcile
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Completed XPC Activity: com.apple.ap.adtrackingd.reconcile
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: COMPLETED com.apple.ap.adtrackingd.reconcile:E86E1A <private>!
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Unregistered XPC Activity: com.apple.ap.adtrackingd.reconcile
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Creating XPC Activity: com.apple.ap.adtrackingd.reconcile
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(DuetActivityScheduler)[21] <Notice>: SUBMITTING: <private>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Registered XPC Activity: com.apple.ap.adtrackingd.reconcile
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Submitted Activity: com.apple.ap.adtrackingd.reconcile:9EB24B <private>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Activity <private>: Optimal Score 0.6245 at <private> (Valid Until: <private>)
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Setting timer (isWaking=1, activityRequiresWaking=0) between <private> and <private> for <private>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:55 Applicasters-iPhone symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone locationd[61] <Notice>: {"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb"}
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone locationd[61] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"DaemonStatus", "id":"0x102123b50", "property":"batteryData", "old":{"wasConnected":true,"charged":false,"level":95,"connected":true,"chargerType":"kChargerTypeUsb"}, "new":{"wasConnected":true,"charged":false,"level":96,"connected":true,"chargerType":"kChargerTypeUsb"}}
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone MobileMail[191] <Notice>: lpm:0 locked:1 wifi:1 onpower:1 thermals:0 battery:0.96
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone MobileMail[191] <Notice>: lpm:0 locked:1 wifi:1 onpower:1 thermals:0 battery:0.96
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone powerd[34] <Notice>: Battery capacity change posted(0x2b0060). Capacity:96 Source:AC
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Power sources changed
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Query power sources
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Got a list of 1 sources
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Found 1 power sources
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Found power source: {
+[iOSLog] [IOS_SYSLOG_ROW]     "Battery Provides Time Remaining" = 1;
+[iOSLog] [IOS_SYSLOG_ROW]     BatteryHealth = Good;
+[iOSLog] [IOS_SYSLOG_ROW]     "Current Capacity" = 96;
+[iOSLog] [IOS_SYSLOG_ROW]     "Is Charging" = 1;
+[iOSLog] [IOS_SYSLOG_ROW]     "Is Finishing Charge" = 0;
+[iOSLog] [IOS_SYSLOG_ROW]     "Is Present" = 1;
+[iOSLog] [IOS_SYSLOG_ROW]     "Max Capacity" = 100;
+[iOSLog] [IOS_SYSLOG_ROW]     Name = "InternalBattery-0";
+[iOSLog] [IOS_SYSLOG_ROW]     "Power Source ID" = 2228323;
+[iOSLog] [IOS_SYSLOG_ROW]     "Power Source State" = "AC Power";
+[iOSLog] [IOS_SYSLOG_ROW]     "Raw External Connected" = 1;
+[iOSLog] [IOS_SYSLOG_ROW]     "Show Charging UI" = 1;
+[iOSLog] [IOS_SYSLOG_ROW]     "Time to Empty" = 0;
+[iOSLog] [IOS_SYSLOG_ROW]     "Time to Full Charge" = 0;
+[iOSLog] [IOS_SYSLOG_ROW]     "Transport Type" = Internal;
+[iOSLog] [IOS_SYSLOG_ROW]     Type = InternalBattery;
 [iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Activate assertion: <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Setting jetsam priority to 10 [0x10109]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:3 (CPUMON check): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: Updating PowerAssertion on Zapp-App:337
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:41 +0200 [Error] - [ZAZappAppManager.m:139 -[ZAZappAppManager application:didFailToRegisterForRemoteNotificationsWithError:]] Error Domain=NSCocoaErrorDomain Code=3000 "no valid \M-b\M^@\M^\aps-environment\M-b\M^@\M^] entitlement string found for application" UserInfo={NSLocalizedDescription=no valid \M-b\M^@\M^\aps-environment\M-b\M^@\M^] entitlement string found for application}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting notification settings
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Getting section info
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got section info [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Got notification settings [ hasResult: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Got notification settings [ hasResult: 1 hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Error>: No valid 'aps-environment' entitlement string found for application 'com.yourcompany.iReshet': (null).
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Requesting token for remote notifications
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Requested token for remote notifications [ didSucceed: 0 hasError: 1 hasCompletionHandler: 1 ]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: client <private> HWM increased to 2 because of <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Attempting to acquire assertion for Zapp-App:337: <BKProcessAssertion: 0x100839370; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&83C9BF045EF9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Add assertion: <BKProcessAssertion: 0x100839370; id: 337-2037BCCF-8064-4823-8BE4-83C9BF045EF9; name: "Called by UIKit, from <redacted>"; state: active; reason: finishTask; duration: 180.0s> {
-[iOSLog] [IOS_SYSLOG_ROW]     owner = <BSProcessHandle: 0x10083e7f0; Zapp-App:337; valid: YES>;
-[iOSLog] [IOS_SYSLOG_ROW]     flags = preventSuspend, preventIdleSleep, preventSuspendOnSleep;
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Activate assertion: <BKProcessAssertion: 0x100839370; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&83C9BF045EF9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (CPUMON check): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100839370; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&83C9BF045EF9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: Updating PowerAssertion on Zapp-App:337
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: Client relinquished <BKProcessAssertion: 0x100839370; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&83C9BF045EF9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Deactivate assertion: <BKProcessAssertion: 0x100839370; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&83C9BF045EF9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (deactivateAssertion): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (CPUMON check): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: Updating PowerAssertion on Zapp-App:337
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Remove assertion: <BKProcessAssertion: 0x100839370; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&83C9BF045EF9>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (CPUMON check): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: Updating PowerAssertion on Zapp-App:337
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone assertiond[64] <Notice>: -[BKAssertion dealloc] - <0x100839370>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I New CTServerConnection from pid 337 (conn=0x15bf18740)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I CTServerConnection from pid 337[<private>] is named '<private>'.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I   ==== client 337 (<private>) registered for event kCTEventWirelessTechnologyChange(139) (now total 1)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I   ==== client 337 (<private>) registered for event kCTEventRegistrationDataStatus(55) (now total 2)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #E Client 337 (<private>) not permitted to register for event kCTEventIndicatorSignalStrength(16); ignored registration
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Error>: <private> XPC Entitlement Failed: 'public-signal-strength' entitlement required for <private>; dropping.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I CTServerConnection from pid 337 has closed (conn=0x15bf18740)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone analyticsd[87] <Notice>: [<private>] no observers; dropped.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [39:0x1c4178c00]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [39:0x1c4178c00]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC Enabling TLS [40:0x1c0174280]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [40:0x1c0174280]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <C3C4B21D-DA9D-4D1A-A80A-CD7CE36271B7>.<0> setting up Connection 40
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <D3D1AC8D-0E70-4DE2-B3FF-032B379C1B10>.<1> now using Connection 39
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <D3D1AC8D-0E70-4DE2-B3FF-032B379C1B10>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I New CTServerConnection from pid 337 (conn=0x15bf18740)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I CTServerConnection from pid 337[<private>] is named '<private>'.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I   ==== client 337 (<private>) registered for event kCTEventWirelessTechnologyChange(139) (now total 1)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #I   ==== client 337 (<private>) registered for event kCTEventRegistrationDataStatus(55) (now total 2)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Notice>: #E Client 337 (<private>) not permitted to register for event kCTEventIndicatorSignalStrength(16); ignored registration
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:41 Applicasters-iPhone CommCenter[79] <Error>: <private> XPC Entitlement Failed: 'public-signal-strength' entitlement required for <private>; dropping.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: attention: someone invoked GSEventResetIdleTimer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: 0x1c507ba00 reconfigured attention timeouts:{
-[iOSLog] [IOS_SYSLOG_ROW]     282 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
-[iOSLog] [IOS_SYSLOG_ROW]     280 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
-[iOSLog] [IOS_SYSLOG_ROW]     300 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
-[iOSLog] [IOS_SYSLOG_ROW] }, configuration generation: 455
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: attention client RESUME <AWAttentionAwarenessConfiguration: 0x1c0887cb0> (identifier: com.apple.springboard.attention-0x1c507ba00 samplingInterval:       0.00000 samplingDelay:       0.00000 attentionLostTimeouts:     282.00000,     280.00000,     300.00000 mask Button|Keyboard|Digitizer|GameController|MesaTouch)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: setting configuration:<AWAttentionAwarenessConfiguration: 0x1c0888570> (identifier: com.apple.springboard.attention-0x1c507ba00 samplingInterval:       0.00000 samplingDelay:       0.00000 attentionLostTimeouts:     282.00000,     280.00000,     300.00000 mask Button|Keyboard|Digitizer|GameController|MesaTouch)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:255 :    3352.71687:  Info: reset attention lost timeout for <private> at    3352.71665
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                    Scheduler.m:142 :    3352.71698:  Info: 1 clients: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:255 :    3352.71938:  Info: reset attention lost timeout for <private> at    3352.71938
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:141 :    3352.71955:  Info: updated config <private>, old config <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [APAnalyticsManager.m:1306 +[APAnalyticsManager showDebugAlert:dataValue:properties:]] Analytics Log: Data Value: {
-[iOSLog] [IOS_SYSLOG_ROW]     Environment = Production;
-[iOSLog] [IOS_SYSLOG_ROW] },
-[iOSLog] [IOS_SYSLOG_ROW] Target Providers: cooladata, google_analytics, mixpanel
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [APAnalyticsManager.m:1306 +[APAnalyticsManager showDebugAlert:dataValue:properties:]] Analytics Log: Data Value:
-[iOSLog] [IOS_SYSLOG_ROW]   Generic User Properties:{
-[iOSLog] [IOS_SYSLOG_ROW]     Environment = Production;
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW]   PII User Properties:{
-[iOSLog] [IOS_SYSLOG_ROW] },
-[iOSLog] [IOS_SYSLOG_ROW] Target Providers: cooladata, google_analytics, mixpanel
-[iOSLog] [IOS_SYSLOG_ROW] PII User Properties are only delivered to providers who allow storage of PII
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [APAnalyticsManager.m:1306 +[APAnalyticsManager showDebugAlert:dataValue:properties:]] Analytics Log: Data Value: {
-[iOSLog] [IOS_SYSLOG_ROW]     "IP Address" = "192.168.70.164";
-[iOSLog] [IOS_SYSLOG_ROW] },
-[iOSLog] [IOS_SYSLOG_ROW] Target Providers: cooladata, google_analytics, mixpanel
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [APAnalyticsManager.m:1306 +[APAnalyticsManager showDebugAlert:dataValue:properties:]] Analytics Log: Data Value:
-[iOSLog] [IOS_SYSLOG_ROW]   Generic User Properties:{
-[iOSLog] [IOS_SYSLOG_ROW]     "IP Address" = "192.168.70.164";
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW]   PII User Properties:{
-[iOSLog] [IOS_SYSLOG_ROW] },
-[iOSLog] [IOS_SYSLOG_ROW] Target Providers: cooladata, google_analytics, mixpanel
-[iOSLog] [IOS_SYSLOG_ROW] PII User Properties are only delivered to providers who allow storage of PII
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0019a00", "property":"previousAuthorizationStatus", "old":"NotDetermined", "new":"NotDetermined"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0019a00", "property":"previousAuthorizationStatusValid", "old":0, "new":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(ZappAnalyticsPlugins)[337] <Notice>: INFO: GoogleAnalytics 3.17 -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:161): Reachability flags update: 0X000002
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(UserNotifications)[337] <Notice>: [com.yourcompany.iReshet] Setting 37 notification categories
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Error] - [ZAZappAppManager.m:139 -[ZAZappAppManager application:didFailToRegisterForRemoteNotificationsWithError:]] Error Domain=NSCocoaErrorDomain Code=3000 "no valid \M-b\M^@\M^\aps-environment\M-b\M^@\M^] entitlement string found for application" UserInfo={NSLocalizedDescription=no valid \M-b\M^@\M^\aps-environment\M-b\M^@\M^] entitlement string found for application}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"CLLocationManager", "event":"activity", "_cmd":"initWithEffectiveBundleIdentifier:bundle:", "self":"0x1c0018720", "identifier":"", "bundle":""}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0018720", "property":"init", "new":{"previousAuthorizationStatusValid":false,"paused":false,"requestingLocation":false,"updatingVehicleSpeed":false,"desiredAccuracy":-1,"allowsBackgroundLocationUpdates":false,"dynamicAccuracyReductionEnabled":false,"distanceFilter":-1,"allowsLocationPrompts":true,"activityType":0,"persistentMonitoringEnabled":true,"pausesLocationUpdatesAutomatically":0,"updatingVehicleHeading":false,"batchingLocation":false,"showsBackgroundLocationIndicator":false,"updatingLocation":false,"requestingRanging":false,"updatingHeading":false,"previousAuthorizationStatus":0,"allowsMapCorrection":true,"matchInfoEnabled":false,"allowsAlteredAccessoryLocations":false,"updatingRanging":false,"courtesyPromptNeeded":false,"headingFilter":1}}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0018720", "property":"lifecycle", "old":"0x0", "new":"0x1c02d7760"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"_CLClientCreateWithBundleIdentifierAndPath", "event":"activity", "effectiveBundleIdentifier":"", "effectiveBundlePath":""}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: #Warning Setting CLCommon's runloop after it was already established
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"client allocated", "client":"0x113db7380"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x102824600", "property":"lifecycle", "old":"0x0", "new":"0x102824600"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"DaemonClient", "id":"0x102824600", "property":"clientName", "old":"", "new":"com.yourcompany.iReshet"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBDataProvider: Invalidate bulletins in section com.yourcompany.iReshet for destinations 2
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBServer: Update bulletins in section com.yourcompany.iReshet for feed 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"Client visibility changed", "client":"com.yourcompany.iReshet", "is visible":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Marking change", "clientKey":"com.yourcompany.iReshet", "reason":"In-use halo-effect", "assertionLevel":3, "coming":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Marking change", "clientKey":"com.yourcompany.iReshet", "reason":"In-use halo-effect", "assertionLevel":4, "coming":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Marking change", "clientKey":"com.yourcompany.iReshet", "reason":"In-use halo-effect", "assertionLevel":3, "coming":0}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: Client com.yourcompany.iReshet connected
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"#CLIUA Client CLIUA level changed", "name":"com.yourcompany.iReshet", "assertedInUseLevel":4}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: Background indicator enabled for <private> is now <private> (was <private>)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Error>: No data found at /var/mobile/Library/SpringBoard/PushStore/com.yourcompany.iReshet.pushstore
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(UserNotificationsServer)[53] <Notice>: [com.yourcompany.iReshet] Returning 0 bulletins since Sun Oct 29 10:29:42 2017 (max 500)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBServer: Section com.yourcompany.iReshet responded with 0 bulletin requests to feed 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: Updating section com.yourcompany.iReshet with 0 new bulletins
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: Current bulletins in this section: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard(BulletinBoard)[53] <Notice>: BBDataProvider: Invalidate parameters for section com.yourcompany.iReshet
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"kCLConnectionMessageRegistration", "event":"activity", "this":"0x102824600", "registrationRequired":0, "registrationReceived":0}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: #Warning could not get resource URL for <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: #Warning issue retrieving localized strings for bundle '<private>'
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: #Warning could not get resource URL for <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: #Warning issue retrieving localized strings for bundle '<private>'
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: com.yourcompany.iReshet is creating a CLLocationManager, but does not have any NSLocation*UsageDescription keys
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"update client authorization mask", "name":"com.yourcompany.iReshet", "old":0, "new":0, "localAuthorizationChange":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"_CLClientCreateConnection", "event":"activity", "client":"0x113db7380"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"Sending cached messages to daemon", "event":"activity"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: #Warning No cached registration message
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0018720", "property":"pausesLocationUpdatesAutomatically", "old":{"type":"decode failure","raw value":0,"expected type":"Generic"}, "new":{"type":"decode failure","raw value":5,"expected type":"Generic"}}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"CLLocationManager", "event":"activity", "_cmd":"setDelegate:", "self":"0x1c0018720", "delegate":"0x1c4010670"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone locationd[61] <Notice>: {"msg":"kCLConnectionMessagePausesLocationUpdatesAutomatically", "event":"activity", "this":"0x102824600", "registrationRequired":1, "registrationReceived":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0018720", "property":"previousAuthorizationStatus", "old":"NotDetermined", "new":"NotDetermined"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CoreLocation)[337] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"LocationManager", "id":"0x1c0018720", "property":"previousAuthorizationStatusValid", "old":0, "new":1}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <D3D1AC8D-0E70-4DE2-B3FF-032B379C1B10>.<1> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <D3D1AC8D-0E70-4DE2-B3FF-032B379C1B10>.<1> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [APModel.m:393 -[APModel stateMachine:didChangeFromState:toState:afterEvent:withArguments:]] APEndUserProfile: 84663089 did change from state model_state_downloading to state model_state_loaded after event model_event_finished.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [APApplicasterController.m:408 -[APApplicasterController modelDidFinishLoadingNotification:]] Successfully loaded [APEndUserProfile]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CocoaLumberjack)[337] <Notice>: 2017/11/05 10:29:42 +0200 [Debug] - [HQMEApplicasterDataStore.m:883 -[HQMEApplicasterDataStore storeModelLocally:inPath:]_block_invoke_2] Model saved to: /var/mobile/Containers/Data/Application/87D3F007-3E56-45E3-85B3-3C0D1A72D212/Documents/ApplicasterDataStore/APEndUserProfile/JSONDict.dat
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EE49481D-8E38-4816-A2B9-83016C8409BF>.<1> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EE49481D-8E38-4816-A2B9-83016C8409BF>.<1> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Cancel [37:0x1c4173740]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [40:0x1c0174280]: 1, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [40:0x1c0174280]: 2, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [40:0x1c0174280]: 11, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [40:0x1c0174280]: 12, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [40:0x1c0174280]: 14, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone kernel(AppleH6ADBE0)[0] <Notice>: virtual void DPBDriverV1::turnOff_gated(bool, const CustomParams *) DPB disabled: fast: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Trust Result [40:0x1c0174280]: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Update now playing info if need: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(MediaRemote)[337] <Notice>: Setting identical now playing info, skipping update.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: --- AVKit-UpdateNowPlayingInfo ---
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: --- AVKit-UpdateNowPlayingInfo ---
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaserverd(AudioToolbox)[25] <Notice>: 4542: { "action":"set_play_state", "session":{"ID":"0x19223","PID":337,"name":"Zapp-App"}, "details":{"IOs":[0,1,0,0,0],"active":true,"modes":"Output","player":"0x10189d400","state":"Paused","type":"Queue"} }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaserverd(CoreMedia)[25] <Notice>: -CMSessionMgr- cmsSetIsPlaying: CMSession: 'sid:0x19223, Zapp-App(337), 'prim'' with category/mode MediaPlayback/Default stopping playing
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: Client relinquished <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: [MediaServerNowPlayingDataSource] Any app is playing did change notification received. SomeClientIsPlaying = NO
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Deactivate assertion: <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (deactivateAssertion): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Scheduling allow-idle-sleep timer with interval: 180.0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Setting jetsam priority to 10 [0x10108]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (CPUMON check): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: Updating PowerAssertion on Zapp-App:337
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone kernel(Sandbox)[0] <Notice>: Sandbox: Zapp-App(337) System Policy: deny(1) dynamic-code-generation
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone kernel(Sandbox)[0] <Error>: Zapp-App(337) System Policy: MAP_JIT requires the dynamic-codesigning entitlement
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] Remove assertion: <BKProcessAssertion: 0x100b0c720; "CMSession.337."com.yourcompany.iReshet"."MediaPlayback".isPlayingProcessAssertion" (audio:inf); id:\M-b\M^@\M-&07D4DC2BBB04>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: [Zapp-App:337] dump all assertions HWM:4 (CPUMON check): {
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100821480; "Resume" (activation:inf); id:\M-b\M^@\M-&E9E954A48DEB> [active]
-[iOSLog] [IOS_SYSLOG_ROW]     <BKProcessAssertion: 0x100b45840; "Called by UIKit, from <redacted>" (finishTask:180s); id:\M-b\M^@\M-&DA35A221AFC9> [active]
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: Updating PowerAssertion on Zapp-App:337
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone assertiond[64] <Notice>: -[BKAssertion dealloc] - <0x100b0c720>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Rate changed to: 0.000000
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Ignoring rate change.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: Scene <FBScene: 0x1c092a500; sceneID: com.yourcompany.iReshet; valid: YES> is setting idleTimerDisabled to: NO
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: <private> - updateIdleTimerForReason:"IdleTimerDisableChangedForMainDisplaySceneManager"]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: <private> - _setIdleTimerWithDescriptor:<SBIdleTimerDescriptor: 0x1c12540d0; timerMode: Automatic; quickUnwarnInterval: 282.0s; warnInterval: 280.0s; totalInterval: 300.0s> reason:"IdleTimerDisableChangedForMainDisplaySceneManager"]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: 0x1c507ba00 reconfigured attention timeouts:{
-[iOSLog] [IOS_SYSLOG_ROW]     282 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
-[iOSLog] [IOS_SYSLOG_ROW]     280 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
-[iOSLog] [IOS_SYSLOG_ROW]     300 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
-[iOSLog] [IOS_SYSLOG_ROW] }, configuration generation: 456
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: setting configuration:<AWAttentionAwarenessConfiguration: 0x1c4897660> (identifier: com.apple.springboard.attention-0x1c507ba00 samplingInterval:       0.00000 samplingDelay:       0.00000 attentionLostTimeouts:     282.00000,     280.00000,     300.00000 mask Button|Keyboard|Digitizer|GameController|MesaTouch)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:255 :    3353.32913:  Info: reset attention lost timeout for <private> at    3353.32913
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:141 :    3353.32930:  Info: updated config <private>, old config <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC Enabling TLS [41:0x1c0175540]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Start [41:0x1c0175540]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EDB5A226-4F2C-4DED-AFB3-33463C38ABC9>.<1> setting up Connection 41
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Update now playing info if need: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: --- AVKit-UpdateNowPlayingInfo ---
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: --- AVKit-UpdateNowPlayingInfo ---
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Time control status = 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Setting prevent idle display sleep to NO
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: Update now playing info if need: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: --- AVKit-UpdateNowPlayingInfo ---
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(AVKit)[337] <Notice>: --- AVKit-UpdateNowPlayingInfo ---
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [40:0x1c0174280]: 20, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [40:0x1c0174280]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [40:0x1c0174280]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [40:0x1c0174280]: 8
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Handshake Complete [40:0x1c0174280]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <C3C4B21D-DA9D-4D1A-A80A-CD7CE36271B7>.<0> now using Connection 40
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <C3C4B21D-DA9D-4D1A-A80A-CD7CE36271B7>.<0> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [41:0x1c0175540]: 1, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [41:0x1c0175540]: 2, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [41:0x1c0175540]: 11, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [41:0x1c0175540]: 12, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [41:0x1c0175540]: 14, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone trustd[91] <Notice>: ocsp responder: (null) did not include status of requested cert
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone trustd[91] <Notice>: ocsp responder: (null) did not include status of requested cert
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Trust Result [41:0x1c0175540]: 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <C3C4B21D-DA9D-4D1A-A80A-CD7CE36271B7>.<0> received response, status 200 content K
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <C3C4B21D-DA9D-4D1A-A80A-CD7CE36271B7>.<0> response ended
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone testmanagerd[325] <Notice>: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: [MediaServerNowPlayingDataSource] Now playing app is playing did change notification received. Playing = NO
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: [MRDNowPlayingPlayerClient] Client at path "origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer" is setting inferred playback state from Playing to Paused
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: [MRDNowPlayingPlayerClient] <private> isPlayingState changed to false
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: [MRDNowPlayingPlayerClient] <private> playbackState changed from Playing to Paused
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: <private> - updateIdleTimerForReason:"IdleTimerReset"]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: 0x1c507ba00 reconfigured attention timeouts:{
-[iOSLog] [IOS_SYSLOG_ROW]     282 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: quickWarn";
-[iOSLog] [IOS_SYSLOG_ROW]     280 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: warn";
-[iOSLog] [IOS_SYSLOG_ROW]     300 = "SBAttentionAwareIdleTimerTimeoutContext - expectation: expiration";
-[iOSLog] [IOS_SYSLOG_ROW] }, configuration generation: 457
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone SpringBoard[53] <Notice>: setting configuration:<AWAttentionAwarenessConfiguration: 0x1c088c6c0> (identifier: com.apple.springboard.attention-0x1c507ba00 samplingInterval:       0.00000 samplingDelay:       0.00000 attentionLostTimeouts:     282.00000,     280.00000,     300.00000 mask Button|Keyboard|Digitizer|GameController|MesaTouch)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Request: clientProperties 44C32A93-D18F-4D50-BB72-0037604203C0 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Request: clientProperties 21348C46-4F51-4864-8473-F98EE9CF5CCD for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Request: clientProperties 3693687E-AFD1-460D-8903-5E9301B166E7 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Request: resolvePlayerPath 9257C2D0-D76C-4D14-B467-D94AAC694281 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Request: resolvePlayerPath 9257C2D0-D76C-4D14-B467-D94AAC694281 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Response: resolvePlayerPath 9257C2D0-D76C-4D14-B467-D94AAC694281 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0004 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Request: playbackState 39DF117F-87E2-4BCF-80E5-382EF011572D for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone routined(MediaRemote)[29] <Notice>: Request: resolvePlayerPath 2BDE9281-02EB-4C07-A3AF-A3F9F8F1033D for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone routined(MediaRemote)[29] <Notice>: Request: resolvePlayerPath 2BDE9281-02EB-4C07-A3AF-A3F9F8F1033D for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone routined(MediaRemote)[29] <Notice>: Response: resolvePlayerPath 2BDE9281-02EB-4C07-A3AF-A3F9F8F1033D returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone routined(MediaRemote)[29] <Notice>: Request: playbackState C3E81F63-23CF-4D0D-A420-595E734C25B1 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath DC980FDD-6B3B-40D5-ABE2-D5E14425B973 for origin-1280262988/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath DC980FDD-6B3B-40D5-ABE2-D5E14425B973 for origin-1280262988/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: resolvePlayerPath DC980FDD-6B3B-40D5-ABE2-D5E14425B973 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: clientProperties 30502C57-F89D-4BD2-9CB4-E6F05E875084 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath 372EEF32-EF35-4177-88C8-FA4F0B7302F8 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath 372EEF32-EF35-4177-88C8-FA4F0B7302F8 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 5E832BB4-51FA-4491-BC37-E436C7061273 for origin-1280262988/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 5E832BB4-51FA-4491-BC37-E436C7061273 for origin-1280262988/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 5E832BB4-51FA-4491-BC37-E436C7061273 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-(null)-0/player-(null) in 0.0002 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 0507AD36-A4CD-4ED6-A1C9-DC060D6D6009 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone wifid(MediaRemote)[41] <Notice>: Request: resolvePlayerPath C4928F78-4B79-44B3-8F04-F9DBC541CEA4 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone wifid(MediaRemote)[41] <Notice>: Request: resolvePlayerPath C4928F78-4B79-44B3-8F04-F9DBC541CEA4 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone wifid(MediaRemote)[41] <Notice>: Response: resolvePlayerPath C4928F78-4B79-44B3-8F04-F9DBC541CEA4 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0117 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone wifid(MediaRemote)[41] <Notice>: Request: playbackState D7A3D439-DF08-4D4F-A21C-A3F2E79D180B for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone wifid(MediaRemote)[41] <Notice>: Response: playbackState D7A3D439-DF08-4D4F-A21C-A3F2E79D180B returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0158 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone routined(MediaRemote)[29] <Notice>: Response: playbackState C3E81F63-23CF-4D0D-A420-595E734C25B1 returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0094 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Event [41:0x1c0175540]: 20, Pending(0)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Connected [41:0x1c0175540]: Err(16)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [41:0x1c0175540]: 1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TCP Conn Event [41:0x1c0175540]: 8
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: TIC TLS Handshake Complete [41:0x1c0175540]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EDB5A226-4F2C-4DED-AFB3-33463C38ABC9>.<1> now using Connection 41
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone Zapp-App(CFNetwork)[337] <Notice>: Task <EDB5A226-4F2C-4DED-AFB3-33463C38ABC9>.<1> sent request, body N
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: resolvePlayerPath 372EEF32-EF35-4177-88C8-FA4F0B7302F8 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 0507AD36-A4CD-4ED6-A1C9-DC060D6D6009 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0001 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackQueue 8C97ED36-6939-4A39-BA31-FECC7C0AB9D8/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:255 :    3353.56782:  Info: reset attention lost timeout for <private> at    3353.56782
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone backboardd(AttentionAwareness)[58] <Notice>:                 RemoteClient.m:141 :    3353.56803:  Info: updated config <private>, old config <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: resolvePlayerPath A950558B-D297-4310-BBBC-1C8ED4D0E10D for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: resolvePlayerPath A950558B-D297-4310-BBBC-1C8ED4D0E10D returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0120 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: clientProperties 30502C57-F89D-4BD2-9CB4-E6F05E875084 returned <_MRNowPlayingClientProtobuf: 0x100fcb750> {
-[iOSLog] [IOS_SYSLOG_ROW]     bundleIdentifier = "com.yourcompany.iReshet";
-[iOSLog] [IOS_SYSLOG_ROW]     displayName = "Zapp-App";
-[iOSLog] [IOS_SYSLOG_ROW]     nowPlayingVisibility = VisibleWhenBackgrounded;
-[iOSLog] [IOS_SYSLOG_ROW]     processIdentifier = 337;
-[iOSLog] [IOS_SYSLOG_ROW]     processUserIdentifier = 501;
-[iOSLog] [IOS_SYSLOG_ROW]     tintColor =     {
-[iOSLog] [IOS_SYSLOG_ROW]         alpha = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         blue = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         green = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         red = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]     };
-[iOSLog] [IOS_SYSLOG_ROW] } with error (null) for origin-0/client-(null)-0/player-(null) in 0.0137 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: playbackState 306C736F-8CE8-4F37-B52B-D8740C67F274 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Request: playbackQueue DB525EF6-A49C-4C52-8AA8-E387AF0A2DB9/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Response: clientProperties 44C32A93-D18F-4D50-BB72-0037604203C0 returned <_MRNowPlayingClientProtobuf: 0x14fd30580> {
-[iOSLog] [IOS_SYSLOG_ROW]     bundleIdentifier = "com.yourcompany.iReshet";
-[iOSLog] [IOS_SYSLOG_ROW]     displayName = "Zapp-App";
-[iOSLog] [IOS_SYSLOG_ROW]     nowPlayingVisibility = VisibleWhenBackgrounded;
-[iOSLog] [IOS_SYSLOG_ROW]     processIdentifier = 337;
-[iOSLog] [IOS_SYSLOG_ROW]     processUserIdentifier = 501;
-[iOSLog] [IOS_SYSLOG_ROW]     tintColor =     {
-[iOSLog] [IOS_SYSLOG_ROW]         alpha = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         blue = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         green = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         red = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]     };
-[iOSLog] [IOS_SYSLOG_ROW] } with error (null) for origin-0/client-(null)-0/player-(null) in 0.0227 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Request: resolvePlayerPath 3A2B2545-6EDF-4E4F-AB2C-10D58AADDA91 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Request: resolvePlayerPath 3A2B2545-6EDF-4E4F-AB2C-10D58AADDA91 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Response: resolvePlayerPath 3A2B2545-6EDF-4E4F-AB2C-10D58AADDA91 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Request: playbackState 262AB2B3-6849-473C-968C-68276ED65641 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackQueue 8C97ED36-6939-4A39-BA31-FECC7C0AB9D8/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0151 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath DAF2F08E-5934-4D29-86C1-BA33D8C3D393 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath DAF2F08E-5934-4D29-86C1-BA33D8C3D393 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath DAF2F08E-5934-4D29-86C1-BA33D8C3D393 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackState A2A6B33B-8467-4E9D-A1D5-2219464827E0 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Response: clientProperties 3693687E-AFD1-460D-8903-5E9301B166E7 returned <_MRNowPlayingClientProtobuf: 0x100b77940> {
-[iOSLog] [IOS_SYSLOG_ROW]     bundleIdentifier = "com.yourcompany.iReshet";
-[iOSLog] [IOS_SYSLOG_ROW]     displayName = "Zapp-App";
-[iOSLog] [IOS_SYSLOG_ROW]     nowPlayingVisibility = VisibleWhenBackgrounded;
-[iOSLog] [IOS_SYSLOG_ROW]     processIdentifier = 337;
-[iOSLog] [IOS_SYSLOG_ROW]     processUserIdentifier = 501;
-[iOSLog] [IOS_SYSLOG_ROW]     tintColor =     {
-[iOSLog] [IOS_SYSLOG_ROW]         alpha = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         blue = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         green = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         red = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]     };
-[iOSLog] [IOS_SYSLOG_ROW] } with error (null) for origin-0/client-(null)-0/player-(null) in 0.0232 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Response: playbackState 39DF117F-87E2-4BCF-80E5-382EF011572D returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0235 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(MediaRemote)[124] <Notice>: Response: clientProperties 21348C46-4F51-4864-8473-F98EE9CF5CCD returned <_MRNowPlayingClientProtobuf: 0x100caf680> {
-[iOSLog] [IOS_SYSLOG_ROW]     bundleIdentifier = "com.yourcompany.iReshet";
-[iOSLog] [IOS_SYSLOG_ROW]     displayName = "Zapp-App";
-[iOSLog] [IOS_SYSLOG_ROW]     nowPlayingVisibility = VisibleWhenBackgrounded;
-[iOSLog] [IOS_SYSLOG_ROW]     processIdentifier = 337;
-[iOSLog] [IOS_SYSLOG_ROW]     processUserIdentifier = 501;
-[iOSLog] [IOS_SYSLOG_ROW]     tintColor =     {
-[iOSLog] [IOS_SYSLOG_ROW]         alpha = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         blue = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         green = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]         red = "-1";
-[iOSLog] [IOS_SYSLOG_ROW]     };
-[iOSLog] [IOS_SYSLOG_ROW] } with error (null) for origin-0/client-(null)-0/player-(null) in 0.0244 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(ProactiveMagicalMoments)[124] <Notice>: now playing info did change: <private>, Sun Nov  5 10:29:42 2017,
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request 8C97ED36-6939-4A39-BA31-FECC7C0AB9D8/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request 8C97ED36-6939-4A39-BA31-FECC7C0AB9D8/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e27630, bundleIdentifier = coreduetd, pid = 106, processName = coreduetd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request DB525EF6-A49C-4C52-8AA8-E387AF0A2DB9/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request DB525EF6-A49C-4C52-8AA8-E387AF0A2DB9/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: playbackState 306C736F-8CE8-4F37-B52B-D8740C67F274 returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0188 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackState A2A6B33B-8467-4E9D-A1D5-2219464827E0 returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0046 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath F2A3968E-45CB-4AC1-9AC3-55379072BAE2 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd(MediaRemote)[141] <Notice>: Response: playbackState 262AB2B3-6849-473C-968C-68276ED65641 returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0045 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd[141] <Notice>: WLDPlaybackObserver - Now playing app did change to 'com.yourcompany.iReshet' (playing: 0) from '(null)'
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd[141] <Notice>: WLDPlaybackObserver - Ending transaction due to no active now playing app.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd[141] <Notice>: [WLDXPCTransactionScope] 0x14fe0e4b0: Ended transaction
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath F2A3968E-45CB-4AC1-9AC3-55379072BAE2 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0019 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: supportedCommands 7BF3C410-8A35-4027-9209-441D1393C321 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting to resolve playerPath origin-0/client-(null)-0/player-(null) -> origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: supportedCommands 7BF3C410-8A35-4027-9209-441D1393C321 returned with 12 command(s) with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0042 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath E1C2C87C-C039-4642-BAAB-0EF35AB7E486 for origin-1280262988/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath E1C2C87C-C039-4642-BAAB-0EF35AB7E486 for origin-1280262988/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath E1C2C87C-C039-4642-BAAB-0EF35AB7E486 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-(null)-0/player-(null) in 0.0004 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 090520B1-23AE-4971-8BC7-AB39E6666101 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 090520B1-23AE-4971-8BC7-AB39E6666101 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0002 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackQueue E69A901C-BCD1-4564-835C-A59C39735B90/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone coreduetd(MediaRemote)[106] <Notice>: Response: playbackQueue DB525EF6-A49C-4C52-8AA8-E387AF0A2DB9/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0305 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackQueue E69A901C-BCD1-4564-835C-A59C39735B90/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0026 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 58028BC7-D0ED-4440-8B62-7CB4275FB199 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 58028BC7-D0ED-4440-8B62-7CB4275FB199 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0011 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: supportedCommands 18CBBDF5-33D0-4AD3-9159-B8676FB89DE3 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(ProactiveMagicalMoments)[124] <Notice>: Identifier called: com.apple.duetexpertd.ms.nowplayingpause
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request E69A901C-BCD1-4564-835C-A59C39735B90/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request E69A901C-BCD1-4564-835C-A59C39735B90/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting to resolve playerPath origin-0/client-(null)-0/player-(null) -> origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: supportedCommands 18CBBDF5-33D0-4AD3-9159-B8676FB89DE3 returned with 12 command(s) with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0082 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 74B5F4E2-DC9E-476E-BF12-013CE3A34F2D for origin-1280262988/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 74B5F4E2-DC9E-476E-BF12-013CE3A34F2D for origin-1280262988/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 74B5F4E2-DC9E-476E-BF12-013CE3A34F2D returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 5FA1B583-52CA-4545-884B-BCD1BD1B6B3B for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 5FA1B583-52CA-4545-884B-BCD1BD1B6B3B returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0002 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackQueue CD98B177-D7DF-455E-86C2-F0E7467714AB/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone duetexpertd(ProactiveMagicalMoments)[124] <Notice>: Identifier called: com.apple.duetexpertd.ms.nowplayingplay
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request CD98B177-D7DF-455E-86C2-F0E7467714AB/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request CD98B177-D7DF-455E-86C2-F0E7467714AB/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackQueue CD98B177-D7DF-455E-86C2-F0E7467714AB/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0036 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath C73E24DB-749D-4932-8D59-3E03ECB63C01 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath C73E24DB-749D-4932-8D59-3E03ECB63C01 for origin-0/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath C73E24DB-749D-4932-8D59-3E03ECB63C01 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0003 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackState F73C994C-90CE-404A-AB09-FF982E3B0367 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackState F73C994C-90CE-404A-AB09-FF982E3B0367 returned Paused with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0019 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 54B869E6-FA14-4B55-BE61-3D8F552809B2 for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting to resolve playerPath origin-0/client-(null)-0/player-(null) -> origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 54B869E6-FA14-4B55-BE61-3D8F552809B2 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0025 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: supportedCommands CBA09D6A-1B95-40A8-A118-B6A26B8DC38C for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: supportedCommands CBA09D6A-1B95-40A8-A118-B6A26B8DC38C returned with 12 command(s) with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0052 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 57E30290-BC67-4560-841B-47ADDBEF4705 for origin-1280262988/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 57E30290-BC67-4560-841B-47ADDBEF4705 for origin-1280262988/client-(null)-0/player-(null) is short-circuting
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 57E30290-BC67-4560-841B-47ADDBEF4705 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-(null)-0/player-(null) in 0.0006 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 19D42769-A1D1-4C13-B7E7-B90F6AA10F10 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 19D42769-A1D1-4C13-B7E7-B90F6AA10F10 returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0002 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: playbackQueue 4188EEC0-6501-4BAA-8DC8-6F7CD847C0AC/M/L/R[0:1] for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting playbackQueue for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with request 4188EEC0-6501-4BAA-8DC8-6F7CD847C0AC/M/L/R[0:1]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: PlaybackQueue request 4188EEC0-6501-4BAA-8DC8-6F7CD847C0AC/M/L/R[0:1] being handled by cache
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: playbackQueue 4188EEC0-6501-4BAA-8DC8-6F7CD847C0AC/M/L/R[0:1] returned item:<337258EC-5829-4D0B-8079-C6121B4AD712/(null)>
-[iOSLog] [IOS_SYSLOG_ROW]  with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0030 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: resolvePlayerPath 790B3B11-B91D-40EF-B9E2-07B364785A7D for origin-0/client-(null)-0/player-(null)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone mediaremoted[27] <Notice>: <MRDMediaRemoteClient 0x127e22540, bundleIdentifier = accessoryd, pid = 177, processName = accessoryd> is requesting to resolve playerPath origin-0/client-(null)-0/player-(null) -> origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: resolvePlayerPath 790B3B11-B91D-40EF-B9E2-07B364785A7D returned origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer with error (null) for origin-0/client-(null)-0/player-(null) in 0.0019 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Request: supportedCommands 7B6D2ADE-FFB9-4550-9F91-818D8EA88A26 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone accessoryd(MediaRemote)[177] <Notice>: Response: supportedCommands 7B6D2ADE-FFB9-4550-9F91-818D8EA88A26 returned with 12 command(s) with error (null) for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer in 0.0038 seconds
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:42 Applicasters-iPhone watchlistd[141] <Notice>: Got launch notification: com.apple.MediaRemote.nowPlayingApplicationIsPlayingDidChange
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:43 Applicasters-iPhone Zapp-App(MediaRemote)[337] <Notice>: Setting now playng info <private> artwork (null) with mergePolicy Replace
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:43 Applicasters-iPhone Zapp-App(MediaRemote)[337] <Notice>: Sending playbackQueueInvalidation
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:43 Applicasters-iPhone Zapp-App(MediaRemote)[337] <Notice>: Invalidating playback queue for path "origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer"
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:43 Applicasters-iPhone Zapp-App(MediaRemote)[337] <Notice>: Request: resolvePlayerPath 78A48165-90AE-4C9B-92C1-CB0DC0B5DC86 for origin-1280262988/client-com.yourcompany.iReshet-337/player-MediaRemote-DefaultPlayer
-[iOSLog] [IOS_SYSLOG_ROW] Nov  5 10:29:43 Applicasters-iPhone Zapp-App(MediaRemote)[337] <Notice>: Response: resolvePlayerPath 78A48165-90AE-4C9B-92C1-CB0DC0B5DC86 returned origin-1280262988/client-
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Found device: <BCBatteryDevice: 0x1c40e1b80; vendor = Apple; productIdentifier = 0; parts = (null); identifier = 2228323; matchIdentifier = (null); name = Applicaster's iPhone; groupName =InternalBattery-0; percentCharge = 96; lowBattery = NO; batterySaverModeActive = NO; connected = YES; charging = YES; internal = YES; powerSource = YES; poweredSoureState = AC Power; transportType = 1; accessoryIdentifier = (null); accessoryCategory = Unknown>
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone powerd[34] <Notice>: Battery time remaining posted. Capacity:96
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: CDDBatteryMonitor:	received batterycallback, currentPercentage:96.000000!
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: CDDBatteryMonitor:	Notifying battery change for BON calculation!
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: BatteryConditionChange: device:0, batteryLevel:96, isConnectedToCharger:1
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: No change in Local BON: 101.
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: Updating energy budget context value to 1 (budget=1, plugged in=1)
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Trigger: <private> is now [<private>]
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Trigger: <private> is now [96]
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone configd(IPConfiguration)[31] <Notice>: LINKLOCAL en2: publish success
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone configd(IPConfiguration)[31] <Notice>: DHCP en2: status = 'no server'
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Attempting to suspend based on triggers: (     "com.apple.duetactivityscheduler.pluggedinpolicy.batteryStatus",     "com.apple.duetactivityscheduler.batterylevelpolicy.batterylevelchange" )
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Ignoring trigger com.apple.duetactivityscheduler.pluggedinpolicy.batteryStatus because conditions are deteriorating
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Ignoring trigger com.apple.duetactivityscheduler.batterylevelpolicy.batterylevelchange because conditions are deteriorating
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Evaluating 0 activities based on triggers
+[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:58:00 Applicasters-iPhone symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
+[HTTP] --> DELETE /wd/hub/session/af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["af6d2116-76ee-4ea7-a3ad-a2650e31f6b1"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1509965882994 (12:58:02 GMT+0200 (EET))
+[Appium] Removing session af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 from our master session list
+[debug] [JSONWP Proxy] Proxying [DELETE /session/af6d2116-76ee-4ea7-a3ad-a2650e31f6b1] to [DELETE http://localhost:8100/session/EFF49F5A-0EC7-4345-9923-3E4BB834F675] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"66AFE086-6086-498C-8737-8B2297882F0D\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*dafbd6dbaec65d39845c61a957913bd118bddbbd' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Cannot find xcodebuild's process id, so unable to retrieve DerivedData folder path
+[XCUITest] No WebDriverAgent derived data available, so unable to set permissions on WDA attachments folder
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1509965883266 (12:58:03 GMT+0200 (EET))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 200 274 ms - 76
