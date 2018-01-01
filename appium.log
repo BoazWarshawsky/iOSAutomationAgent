@@ -1,149 +1,53 @@
-[HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"iPhone 7","xcodeOrgId":"49M4HHM3X6","udid":"dafbd6dbaec65d39845c61a957913bd118bddbbd","platformName":"iOS","showIOSLog":"true","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.0","autoAcceptAlerts":true,"bundleId":"com.yourcompany.iReshet"}}
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone 7","xcodeOrgId":"49M4HHM3X6","udid":"dafbd6dbaec65d39845c61a957913bd118bddbbd","platformName":"iOS","showIOSLog":"true","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.0","autoAcceptAlerts":true,"bundleId":"com.yourcompany.iReshet"},null,{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]}]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1509965867602 (12:57:47 GMT+0200 (EET))
+[Appium] Welcome to Appium v1.7.1
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"kokoriko","orientation":"PORTRAIT","xcodeOrgId":"49M4HHM3X6","udid":"bda3cf30fd1e434c11afff0df5392bdc6529b70c","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.2","platformName":"iOS","bundleId":"com.featureapp"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"kokoriko","orientation":"PORTRAIT","xcodeOrgId":"49M4HHM3X6","udid":"bda3cf30fd1e434c11afff0df5392bdc6529b70c","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.2","platformName":"iOS","bundleId":"com.featureapp"},null,{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1514806181158 (13:29:41 GMT+0200 (EET))
 [Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
 [Appium] Creating new XCUITestDriver (v2.51.1) session
 [Appium] Capabilities:
-[Appium]   deviceName: 'iPhone 7'
+[Appium]   deviceName: 'kokoriko'
+[Appium]   orientation: 'PORTRAIT'
 [Appium]   xcodeOrgId: '49M4HHM3X6'
-[Appium]   udid: 'dafbd6dbaec65d39845c61a957913bd118bddbbd'
-[Appium]   platformName: 'iOS'
-[Appium]   showIOSLog: 'true'
+[Appium]   udid: 'bda3cf30fd1e434c11afff0df5392bdc6529b70c'
 [Appium]   autoLaunch: false
 [Appium]   xcodeSigningId: 'iPhone Developer'
-[Appium]   platformVersion: '11.0'
-[Appium]   autoAcceptAlerts: true
-[Appium]   bundleId: 'com.yourcompany.iReshet'
-[BaseDriver] Capability 'showIOSLog' changed from string to boolean. This may cause unexpected behavior
-[XCUITest] The capabilities 'autoAcceptAlerts' and 'autoDismissAlerts' do not work for XCUITest-based tests. Please adjust your alert handling accordingly.
-[BaseDriver] Session created with session id: af6d2116-76ee-4ea7-a3ad-a2650e31f6b1
-[debug] [XCUITest] Xcode version set to '9.1' (tools v9.0.1.0.1.1506734476)
-[debug] [XCUITest] iOS SDK Version set to '11.1'
-[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1509965867650 (12:57:47 GMT+0200 (EET))
-[debug] [XCUITest] Available devices: dafbd6dbaec65d39845c61a957913bd118bddbbd
-[debug] [XCUITest] Creating iDevice object with udid 'dafbd6dbaec65d39845c61a957913bd118bddbbd'
-[XCUITest] Determining device to run tests on: udid: 'dafbd6dbaec65d39845c61a957913bd118bddbbd', real device: true
-[debug] [BaseDriver] Event 'appConfigured' logged at 1509965867804 (12:57:47 GMT+0200 (EET))
-[debug] [BaseDriver] Event 'resetStarted' logged at 1509965867804 (12:57:47 GMT+0200 (EET))
+[Appium]   platformVersion: '11.2'
+[Appium]   platformName: 'iOS'
+[Appium]   bundleId: 'com.featureapp'
+[BaseDriver] Session created with session id: 653e8d65-0151-45f5-998b-992c3a04d6a1
+[debug] [XCUITest] Xcode version set to '9.2'
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1514806181389 (13:29:41 GMT+0200 (EET))
+[debug] [XCUITest] Available devices: bda3cf30fd1e434c11afff0df5392bdc6529b70c
+[debug] [XCUITest] Creating iDevice object with udid 'bda3cf30fd1e434c11afff0df5392bdc6529b70c'
+[XCUITest] Determining device to run tests on: udid: 'bda3cf30fd1e434c11afff0df5392bdc6529b70c', real device: true
+[debug] [BaseDriver] Event 'appConfigured' logged at 1514806181657 (13:29:41 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'resetStarted' logged at 1514806181658 (13:29:41 GMT+0200 (EET))
 [debug] [XCUITest] Reset: running ios real device reset flow
-[debug] [BaseDriver] Event 'resetComplete' logged at 1509965867805 (12:57:47 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'resetComplete' logged at 1514806181658 (13:29:41 GMT+0200 (EET))
 [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
 [debug] [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
-[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1509965867941 (12:57:47 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1514806181837 (13:29:41 GMT+0200 (EET))
 [XCUITest] Setting up real device
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:48 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
 [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
 [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
 [debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
 [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.1\",\n      \"ip\" : \"192.168.70.111\"\n    },\n    \"build\" : {\n      \"time\" : \"Nov  6 2017 12:12:16\"\n    }\n  },\n  \"sessionId\" : \"EF740169-FE64-4FB0-B686-AB977DFE35C9\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.2.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.2.1\",\n      \"ip\" : \"10.100.102.7\"\n    },\n    \"build\" : {\n      \"time\" : \"Dec 31 2017 17:50:23\"\n    }\n  },\n  \"sessionId\" : \"8B44AD24-36BC-4910-BF06-AEA775EB9D2F\",\n  \"status\" : 0\n}"
 [debug] [XCUITest] Detected WDA listening at 'http://localhost:8100/'. Setting WDA endpoint to 'http://localhost:8100/'
-[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1509965868141 (12:57:48 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1514806182086 (13:29:42 GMT+0200 (EET))
 [XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/'
-[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1509965868141 (12:57:48 GMT+0200 (EET))
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1514806182088 (13:29:42 GMT+0200 (EET))
 [debug] [XCUITest] Sending createSession command to WDA
 [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.1\",\n      \"ip\" : \"192.168.70.111\"\n    },\n    \"build\" : {\n      \"time\" : \"Nov  6 2017 12:12:16\"\n    }\n  },\n  \"sessionId\" : \"EF740169-FE64-4FB0-B686-AB977DFE35C9\",\n  \"status\" : 0\n}"
-[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.yourcompany.iReshet","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:50 Applicasters-iPhone symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
-[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"EFF49F5A-0EC7-4345-9923-3E4BB834F675","capabilities":{"device":"iphone","browserName":"ZappApp","sdkVersion":"11.1","CFBundleIdentifier":"com.yourcompany.iReshet"}},"sessionId":"EFF49F5A-0EC7-4345-9923-3E4BB834F675","status":0}
-[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1509965871887 (12:57:51 GMT+0200 (EET))
-[debug] [XCUITest] 'pgrep -nif xcodebuild.*dafbd6dbaec65d39845c61a957913bd118bddbbd' didn't detect any matching processes. Return code: 1
-[debug] [XCUITest] Cannot find xcodebuild's process id, so unable to retrieve DerivedData folder path
-[XCUITest] No WebDriverAgent derived data available, so unable to set permissions on WDA attachments folder
-[debug] [BaseDriver] Event 'wdaPermsAdjusted' logged at 1509965871941 (12:57:51 GMT+0200 (EET))
-[debug] [BaseDriver] Event 'wdaStarted' logged at 1509965871943 (12:57:51 GMT+0200 (EET))
-[debug] [XCUITest] Setting initial orientation to 'PORTRAIT'
-[debug] [JSONWP Proxy] Proxying [POST /orientation] to [POST http://localhost:8100/session/EFF49F5A-0EC7-4345-9923-3E4BB834F675/orientation] with body: {"orientation":"PORTRAIT"}
-[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"EFF49F5A-0EC7-4345-9923-3E4BB834F675","status":0}
-[debug] [BaseDriver] Event 'orientationSet' logged at 1509965872984 (12:57:52 GMT+0200 (EET))
-[Appium] New XCUITestDriver session created successfully, session af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1509965872985 (12:57:52 GMT+0200 (EET))
-[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"deviceName":"iPhone 7","xcodeOrgId":"49M4HHM3X6","udid":"dafbd6dbaec65d39845c61a957913bd118bddbbd","platformName":"iOS","showIOSLog":"true","autoLaunch":false,"xcodeSigningId":"iPhone Developer","platformVersion":"11.0","autoAcceptAlerts":true,"bundleId":"com.yourcompany.iReshet"}
-[HTTP] <-- POST /wd/hub/session 200 5385 ms - 551
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Rescoring all 153 activities [<private>]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: com.apple.ap.adtrackingd.reconcile:E86E1A:[
-[iOSLog] [IOS_SYSLOG_ROW]  ] sumScores:40.753333, denominator:41.420000, FinalDecision: Can Proceed FinalScore: 0.983905}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: 'com.apple.ap.adtrackingd.reconcile:E86E1A' CurrentScore: 0.983905, ThresholdScore: 0.069743 DecisionToRun:1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Running activities : <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(DuetActivityScheduler)[21] <Notice>: STARTING: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Setting timer (isWaking=1, activityRequiresWaking=0) between <private> and <private> for <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Initiating XPC Activity: com.apple.ap.adtrackingd.reconcile
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Completed XPC Activity: com.apple.ap.adtrackingd.reconcile
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: COMPLETED com.apple.ap.adtrackingd.reconcile:E86E1A <private>!
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Unregistered XPC Activity: com.apple.ap.adtrackingd.reconcile
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Creating XPC Activity: com.apple.ap.adtrackingd.reconcile
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(DuetActivityScheduler)[21] <Notice>: SUBMITTING: <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone UserEventAgent(com.apple.cts)[21] <Notice>: Registered XPC Activity: com.apple.ap.adtrackingd.reconcile
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Submitted Activity: com.apple.ap.adtrackingd.reconcile:9EB24B <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Activity <private>: Optimal Score 0.6245 at <private> (Valid Until: <private>)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:53 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Setting timer (isWaking=1, activityRequiresWaking=0) between <private> and <private> for <private>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:55 Applicasters-iPhone symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone locationd[61] <Notice>: {"msg":"adapter details", "adapterDescription":"usb host", "batteryChargerType":"kChargerTypeUsb"}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone locationd[61] <Notice>: {"msg":"state transition", "event":"state_transition", "state":"DaemonStatus", "id":"0x102123b50", "property":"batteryData", "old":{"wasConnected":true,"charged":false,"level":95,"connected":true,"chargerType":"kChargerTypeUsb"}, "new":{"wasConnected":true,"charged":false,"level":96,"connected":true,"chargerType":"kChargerTypeUsb"}}
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone MobileMail[191] <Notice>: lpm:0 locked:1 wifi:1 onpower:1 thermals:0 battery:0.96
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone MobileMail[191] <Notice>: lpm:0 locked:1 wifi:1 onpower:1 thermals:0 battery:0.96
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone powerd[34] <Notice>: Battery capacity change posted(0x2b0060). Capacity:96 Source:AC
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Power sources changed
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Query power sources
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Got a list of 1 sources
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Found 1 power sources
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Found power source: {
-[iOSLog] [IOS_SYSLOG_ROW]     "Battery Provides Time Remaining" = 1;
-[iOSLog] [IOS_SYSLOG_ROW]     BatteryHealth = Good;
-[iOSLog] [IOS_SYSLOG_ROW]     "Current Capacity" = 96;
-[iOSLog] [IOS_SYSLOG_ROW]     "Is Charging" = 1;
-[iOSLog] [IOS_SYSLOG_ROW]     "Is Finishing Charge" = 0;
-[iOSLog] [IOS_SYSLOG_ROW]     "Is Present" = 1;
-[iOSLog] [IOS_SYSLOG_ROW]     "Max Capacity" = 100;
-[iOSLog] [IOS_SYSLOG_ROW]     Name = "InternalBattery-0";
-[iOSLog] [IOS_SYSLOG_ROW]     "Power Source ID" = 2228323;
-[iOSLog] [IOS_SYSLOG_ROW]     "Power Source State" = "AC Power";
-[iOSLog] [IOS_SYSLOG_ROW]     "Raw External Connected" = 1;
-[iOSLog] [IOS_SYSLOG_ROW]     "Show Charging UI" = 1;
-[iOSLog] [IOS_SYSLOG_ROW]     "Time to Empty" = 0;
-[iOSLog] [IOS_SYSLOG_ROW]     "Time to Full Charge" = 0;
-[iOSLog] [IOS_SYSLOG_ROW]     "Transport Type" = Internal;
-[iOSLog] [IOS_SYSLOG_ROW]     Type = InternalBattery;
-[iOSLog] [IOS_SYSLOG_ROW] }
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone SpringBoard(BatteryCenter)[53] <Notice>: Found device: <BCBatteryDevice: 0x1c40e1b80; vendor = Apple; productIdentifier = 0; parts = (null); identifier = 2228323; matchIdentifier = (null); name = Applicaster's iPhone; groupName =InternalBattery-0; percentCharge = 96; lowBattery = NO; batterySaverModeActive = NO; connected = YES; charging = YES; internal = YES; powerSource = YES; poweredSoureState = AC Power; transportType = 1; accessoryIdentifier = (null); accessoryCategory = Unknown>
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone powerd[34] <Notice>: Battery time remaining posted. Capacity:96
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: CDDBatteryMonitor:	received batterycallback, currentPercentage:96.000000!
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: CDDBatteryMonitor:	Notifying battery change for BON calculation!
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: AnchorTrusted =(leaf)[force]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone trustd[92] <Notice>: cert[0]: NonEmptySubject =(path)[]> 0
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: BatteryConditionChange: device:0, batteryLevel:96, isConnectedToCharger:1
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: No change in Local BON: 101.
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone coreduetd[95] <Notice>: Updating energy budget context value to 1 (budget=1, plugged in=1)
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Trigger: <private> is now [<private>]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:56 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Trigger: <private> is now [96]
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone configd(IPConfiguration)[31] <Notice>: LINKLOCAL en2: publish success
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone configd(IPConfiguration)[31] <Notice>: DHCP en2: status = 'no server'
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Attempting to suspend based on triggers: (     "com.apple.duetactivityscheduler.pluggedinpolicy.batteryStatus",     "com.apple.duetactivityscheduler.batterylevelpolicy.batterylevelchange" )
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Ignoring trigger com.apple.duetactivityscheduler.pluggedinpolicy.batteryStatus because conditions are deteriorating
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Ignoring trigger com.apple.duetactivityscheduler.batterylevelpolicy.batterylevelchange because conditions are deteriorating
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:57:58 Applicasters-iPhone dasd(DuetActivitySchedulerDaemon)[106] <Notice>: Evaluating 0 activities based on triggers
-[iOSLog] [IOS_SYSLOG_ROW] Nov  6 12:58:00 Applicasters-iPhone symptomsd(SymptomEvaluator)[136] <Notice>: L2 Metrics on ifname en0: rssi: -61 (txFrames/txReTx/txFail) 0/0/0 -> (was/is) 0/0
-[HTTP] --> DELETE /wd/hub/session/af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["af6d2116-76ee-4ea7-a3ad-a2650e31f6b1"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1509965882994 (12:58:02 GMT+0200 (EET))
-[Appium] Removing session af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 from our master session list
-[debug] [JSONWP Proxy] Proxying [DELETE /session/af6d2116-76ee-4ea7-a3ad-a2650e31f6b1] to [DELETE http://localhost:8100/session/EFF49F5A-0EC7-4345-9923-3E4BB834F675] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"66AFE086-6086-498C-8737-8B2297882F0D\",\n  \"status\" : 0\n}"
-[debug] [XCUITest] 'pgrep -nif xcodebuild.*dafbd6dbaec65d39845c61a957913bd118bddbbd' didn't detect any matching processes. Return code: 1
-[debug] [XCUITest] Cannot find xcodebuild's process id, so unable to retrieve DerivedData folder path
-[XCUITest] No WebDriverAgent derived data available, so unable to set permissions on WDA attachments folder
-[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
-[debug] [iOSLog] Stopping iOS log capture
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1509965883266 (12:58:03 GMT+0200 (EET))
-[debug] [MJSONWP] Received response: null
-[debug] [MJSONWP] But deleting session, so not returning
-[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/af6d2116-76ee-4ea7-a3ad-a2650e31f6b1 200 274 ms - 76
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.2.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.2.1\",\n      \"ip\" : \"10.100.102.7\"\n    },\n    \"build\" : {\n      \"time\" : \"Dec 31 2017 17:50:23\"\n    }\n  },\n  \"sessionId\" : \"8B44AD24-36BC-4910-BF06-AEA775EB9D2F\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.featureapp","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":"Failed to launch com.featureapp application","sessionId":"8B44AD24-36BC-4910-BF06-AEA775EB9D2F","status":13}
+[debug] [XCUITest] Failed to create WDA session. Retrying...
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1514806364750 (13:32:44 GMT+0200 (EET))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.2.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.2.1\",\n      \"ip\" : \"10.100.102.7\"\n    },\n    \"build\" : {\n      \"time\" : \"Dec 31 2017 17:50:23\"\n    }\n  },\n  \"sessionId\" : \"8B44AD24-36BC-4910-BF06-AEA775EB9D2F\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.featureapp","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[Appium] Received SIGINT - shutting down
