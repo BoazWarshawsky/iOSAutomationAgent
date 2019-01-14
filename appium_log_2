@@ -1,0 +1,175 @@
+
+The server is running
+[Appium] Welcome to Appium v1.10.0
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"capabilities":{"firstMatch":[{"appium:appActivity":"com.applicaster.componentsapp.IntroActivity","appium:automationName":"uiautomator2","appium:deviceName":"Emulator","appium:appPackage":"com.featureapp","platformName":"Android","appium:host":"http://127.0.0.1:4723/wd/hub"}]},"desiredCapabilities":{"deviceName":"Emulator","automationName":"uiautomator2","host":"http://127.0.0.1:4723/wd/hub","appPackage":"com.featureapp","platformName":"Android","appActivity":"com.applicaster.componentsapp.IntroActivity"}}
+[W3C] Calling AppiumDriver.createSession() with args: [{"deviceName":"Emulator","automationName":"uiautomator2","host":"http://127.0.0.1:4723/wd/hub","appPackage":"com.featureapp","platformName":"Android","appActivity":"com.applicaster.componentsapp.IntroActivity"},null,{"firstMatch":[{"appium:appActivity":"com.applicaster.componentsapp.IntroActivity","appium:automationName":"uiautomator2","appium:deviceName":"Emulator","appium:appPackage":"com.featureapp","platformName":"Android","appium:host":"http://127.0.0.1:4723/wd/hub"}]}]
+[BaseDriver] Event 'newSessionRequested' logged at 1547459429922 (11:50:29 GMT+0200 (IST))
+[Appium] Creating new AndroidUiautomator2Driver (v1.26.0) session
+[Appium] Capabilities:
+[Appium]   platformName: Android
+[Appium]   appActivity: com.applicaster.componentsapp.IntroActivity
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: Emulator
+[Appium]   appPackage: com.featureapp
+[Appium]   host: http://127.0.0.1:4723/wd/hub
+[BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"deviceName":"Emulator","a... were provided
+[BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: host.
+[BaseDriver] Session created with session id: 614a2a9a-61fc-477f-81b5-99702a1077dc
+[AndroidDriver] Java version is: 1.8.0_191
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Using device: emulator-5554
+[ADB] Setting device id to emulator-5554
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[ADB] Current device property 'ro.build.version.sdk': 28
+[ADB] Device API level: 28
+[UiAutomator2] Relaxing hidden api policy
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell settings put global hidden_api_policy_pre_p_apps 1'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell settings put global hidden_api_policy_p_apps 1'
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] Getting install status for io.appium.uiautomator2.server
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[ADB] 'io.appium.uiautomator2.server' is installed
+[ADB] Getting package info for 'io.appium.uiautomator2.server'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.1.1' >= '3.1.1')
+[UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[ADB] Checking app cert for /Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.1.1.apk
+[ADB] Starting '/Users/boazwarshawsky/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.1.1.apk"]'
+[ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[ADB] 
+[ADB] '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.1.1.apk' is already signed.
+[ADB] Checking app cert for /Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[ADB] Starting '/Users/boazwarshawsky/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+[ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[ADB] 
+[ADB] '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[UiAutomator2] Server packages are not going to be (re)installed
+[UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' to be available
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+[UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' available
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[ADB] 'io.appium.settings' is installed
+[ADB] Getting package info for 'io.appium.settings'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+[ADB] There is no need to install/upgrade '/Applications/Appium.app/Contents/Resources/app/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[ADB] Device API level: 28
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+[Logcat] Starting logcat capture
+[UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+[ADB] Forwarding system: 8200 to device: 6790
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8200 tcp\:6790'
+[UiAutomator2] No app capability. Assuming it is already on the device
+[ADB] Getting install status for com.featureapp
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.featureapp'
+[ADB] 'com.featureapp' is installed
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.featureapp'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.featureapp'
+[AndroidDriver] Performed fast reset on the installed 'com.featureapp' application (stop and clear)
+[ADB] Checking app cert for undefined
+[ADB] 'undefined' does not exist
+[ADB] Getting all processes with uiautomator
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[UiAutomator2] Starting UIAutomator2 server 3.1.1
+[UiAutomator2] Using UIAutomator2 server from '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.1.1.apk' and test from '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[UiAutomator2] [UIAutomator2 Error] getaddrinfo ENOTFOUND http://127.0.0.1:4723/wd/hub http://127.0.0.1:4723/wd/hub:5037
+[UiAutomator2] Full error: Error: getaddrinfo ENOTFOUND http://127.0.0.1:4723/wd/hub http://127.0.0.1:4723/wd/hub:5037
+[UiAutomator2]     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:50:26)
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[JSONWP Proxy] Proxying [GET /status] to [GET http://http://127.0.0.1:4723/wd/hub:8200/wd/hub/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"http","host":"http","port":80}
+[UiAutomator2] Deleting UiAutomator2 session
+[UiAutomator2] Deleting UiAutomator2 server session
+[JSONWP Proxy] Matched '/' to command name 'deleteSession'
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.featureapp'
+[Logcat] Stopping logcat capture
+[ADB] Removing forwarded port socket connection: 8200 
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8200'
+[ADB] Device API level: 28
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell settings delete global hidden_api_policy_pre_p_apps'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell settings delete global hidden_api_policy_p_apps'
+[BaseDriver] Event 'newSessionStarted' logged at 1547459450997 (11:50:50 GMT+0200 (IST))
+[W3C] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: getaddrinfo ENOTFOUND http http:80
+[W3C]     at JWProxy.command (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:236:13)
+[HTTP] <-- POST /wd/hub/session 500 21078 ms - 583
+[HTTP] 
