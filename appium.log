@@ -1,70 +1,300 @@
-[Appium] Welcome to Appium v1.9.0
+
+The server is running
+[Appium] Welcome to Appium v1.10.0
 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
 [HTTP] --> POST /wd/hub/session
-[HTTP] {"capabilities":{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"iPhone X","app":"/Users/boazw/Library/Developer/Xcode/DerivedData/Zapp-App-bavhcttsfbtyxlgugvldatqwsjmu/Build/Products/Debug-iphonesimulator/Zapp-App.app","host":"http://127.0.0.1:4723/wd/hub","platformVersion":"11.4","platformName":"iOS","bundleId":"com.featureapp"}}
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"iPhone X","app":"/Users/boazw/Library/Developer/Xcode/DerivedData/Zapp-App-bavhcttsfbtyxlgugvldatqwsjmu/Build/Products/Debug-iphonesimulator/Zapp-App.app","host":"http://127.0.0.1:4723/wd/hub","platformVersion":"11.4","platformName":"iOS","bundleId":"com.featureapp"},null,{"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{}]}]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1535570143071 (22:15:43 GMT+0300 (EEST))
-[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank
-[Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
-[BaseDriver] The capabilities ["deviceName","app","host","platformVersion","bundleId"] are not standard capabilities and should have an extension prefix
-[Appium] Requested iOS support with version >= 10, using 'XCUITest' driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
-[Appium] Creating new XCUITestDriver (v2.92.0) session
+[HTTP] {"capabilities":{"firstMatch":[{"appium:deviceName":"Emulator","appium:appActivity":"com.applicaster.componentsapp.IntroActivity","platformName":"Android","appium:appPackage":"com.featureapp","appium:host":"http://127.0.0.1:4723/wd/hub"}]},"desiredCapabilities":{"deviceName":"Emulator","host":"http://127.0.0.1:4723/wd/hub","platformName":"Android","appActivity":"com.applicaster.componentsapp.IntroActivity","appPackage":"com.featureapp"}}
+[W3C] Calling AppiumDriver.createSession() with args: [{"deviceName":"Emulator","host":"http://127.0.0.1:4723/wd/hub","platformName":"Android","appActivity":"com.applicaster.componentsapp.IntroActivity","appPackage":"com.featureapp"},null,{"firstMatch":[{"appium:deviceName":"Emulator","appium:appActivity":"com.applicaster.componentsapp.IntroActivity","platformName":"Android","appium:appPackage":"com.featureapp","appium:host":"http://127.0.0.1:4723/wd/hub"}]}]
+[BaseDriver] Event 'newSessionRequested' logged at 1547457725828 (11:22:05 GMT+0200 (IST))
+[Appium] Creating new AndroidDriver (v4.8.0) session
 [Appium] Capabilities:
-[Appium]   platformName: iOS
-[Appium]   deviceName: iPhone X
-[Appium]   app: /Users/boazw/Library/Developer/Xcode/DerivedData/Zapp-App-bavhcttsfbtyxlgugvldatqwsjmu/Build/Products/Debug-iphonesimulator/Zapp-App.app
+[Appium]   platformName: Android
+[Appium]   deviceName: Emulator
+[Appium]   appActivity: com.applicaster.componentsapp.IntroActivity
+[Appium]   appPackage: com.featureapp
 [Appium]   host: http://127.0.0.1:4723/wd/hub
-[Appium]   platformVersion: 11.4
-[Appium]   bundleId: com.featureapp
-[debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"deviceName":"iPhone X","a... were provided
-[debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"deviceName":"Emulator","h... were provided
+[BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: host.
-[BaseDriver] Session created with session id: c71650fe-d47a-4a68-96a4-34c806832019
-[debug] [XCUITest] Current user: 'boazw'
-[debug] [XCUITest] Xcode version set to '9.4.1' (tools v9.4.1.0.1.1528165917)
-[debug] [XCUITest] iOS SDK Version set to '11.4'
-[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1535570143320 (22:15:43 GMT+0300 (EEST))
-[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid 'A49979AE-6634-4812-9CCF-55269E225CEC'
-[XCUITest] Determining device to run tests on: udid: 'A49979AE-6634-4812-9CCF-55269E225CEC', real device: false
-[BaseDriver] Using local app '/Users/boazw/Library/Developer/Xcode/DerivedData/Zapp-App-bavhcttsfbtyxlgugvldatqwsjmu/Build/Products/Debug-iphonesimulator/Zapp-App.app'
-[debug] [BaseDriver] Event 'appConfigured' logged at 1535570143670 (22:15:43 GMT+0300 (EEST))
-[debug] [XCUITest] Checking whether app '/Users/boazw/Library/Developer/Xcode/DerivedData/Zapp-App-bavhcttsfbtyxlgugvldatqwsjmu/Build/Products/Debug-iphonesimulator/Zapp-App.app' is actually present on file system
-[debug] [XCUITest] App is present
-[debug] [BaseDriver] Event 'resetStarted' logged at 1535570143671 (22:15:43 GMT+0300 (EEST))
-[XCUITest] Not scrubbing third party app in anticipation of uninstall
-[debug] [BaseDriver] Event 'resetComplete' logged at 1535570143912 (22:15:43 GMT+0300 (EEST))
-[debug] [XCUITest] Starting log capture for iOS Simulator with udid 'A49979AE-6634-4812-9CCF-55269E225CEC', using 'xcrun simctl spawn A49979AE-6634-4812-9CCF-55269E225CEC log stream --style compact'
-[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1535570144273 (22:15:44 GMT+0300 (EEST))
-[XCUITest] Setting up simulator
-[debug] [iOS] No reason to set locale
-[debug] [iOS] No iOS / app preferences to set
-[debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/boazw/Library/Developer/CoreSimulator/Devices/A49979AE-6634-4812-9CCF-55269E225CEC/data/Library/Caches/com.apple.mobile.installd.staging
-[debug] [iOSSim] Setting preferences of A49979AE-6634-4812-9CCF-55269E225CEC Simulator to {"ConnectHardwareKeyboard":false}
-[debug] [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
-[debug] [iOSSim] Updated A49979AE-6634-4812-9CCF-55269E225CEC Simulator preferences at '/Users/boazw/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"A49979AE-6634-4812-9CCF-55269E225CEC":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
-[debug] [iOSSim] Got Simulator UI client PID: 34286
-[iOSSim] Both Simulator with UDID A49979AE-6634-4812-9CCF-55269E225CEC and the UI client are currently running
-[debug] [BaseDriver] Event 'simStarted' logged at 1535570144829 (22:15:44 GMT+0300 (EEST))
-[debug] [XCUITest] Verifying application platform
-[debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
-[debug] [XCUITest] Reset requested. Removing app with id 'com.featureapp' from the device
-[debug] [XCUITest] Installing '/Users/boazw/Library/Developer/Xcode/DerivedData/Zapp-App-bavhcttsfbtyxlgugvldatqwsjmu/Build/Products/Debug-iphonesimulator/Zapp-App.app' on Simulator with UUID 'A49979AE-6634-4812-9CCF-55269E225CEC'...
-[debug] [XCUITest] The app has been installed successfully.
-[debug] [BaseDriver] Event 'appInstalled' logged at 1535570152291 (22:15:52 GMT+0300 (EEST))
-[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
-[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
-[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
-[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.4\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.4\",\n      \"ip\" : \"10.100.102.6\"\n    },\n    \"build\" : {\n      \"time\" : \"Aug 29 2018 21:14:42\"\n    }\n  },\n  \"sessionId\" : \"F5A1AA92-4E64-4EE1-A408-8E3618C45E6C\",\n  \"status\" : 0\n}"
-[XCUITest] Will reuse previously cached WDA instance at 'http://localhost:8100/'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
-[debug] [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
-[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1535570152452 (22:15:52 GMT+0300 (EEST))
-[XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/'
-[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1535570152453 (22:15:52 GMT+0300 (EEST))
-[debug] [XCUITest] Sending createSession command to WDA
-[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.4\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.4\",\n      \"ip\" : \"10.100.102.6\"\n    },\n    \"build\" : {\n      \"time\" : \"Aug 29 2018 21:14:42\"\n    }\n  },\n  \"sessionId\" : \"F5A1AA92-4E64-4EE1-A408-8E3618C45E6C\",\n  \"status\" : 0\n}"
-[debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
-[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.featureapp","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[BaseDriver] Session created with session id: 19910d9f-bfc9-4c80-ab6c-86cf49650d35
+[AndroidDriver] Java version is: 1.8.0_191
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Using device: emulator-5554
+[ADB] Setting device id to emulator-5554
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[ADB] Current device property 'ro.build.version.sdk': 28
+[ADB] Device API level: 28
+[AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[AndroidDriver] App file was not listed, instead we're going to run com.featureapp directly on the device
+[AndroidDriver] Checking whether package is present on the device
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages com.featureapp'
+[AndroidDriver] Starting Android session
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[ADB] 'io.appium.settings' is installed
+[ADB] Getting package info for 'io.appium.settings'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+[ADB] There is no need to install/upgrade '/Applications/Appium.app/Contents/Resources/app/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[ADB] Device API level: 28
+[ADB] Device API level: 28
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[ADB] Device API level: 28
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+[Logcat] Starting logcat capture
+[ADB] Getting device platform version
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[ADB] Current device property 'ro.build.version.release': 9
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm size'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.model'
+[ADB] Current device property 'ro.product.model': Android SDK built for x86
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+[ADB] Current device property 'ro.product.manufacturer': Google
+[AndroidDriver] No app sent in, not parsing package/activity
+[AndroidDriver] No app capability. Assuming it is already on the device
+[ADB] Getting install status for com.featureapp
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.featureapp'
+[ADB] 'com.featureapp' is installed
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.featureapp'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.featureapp'
+[AndroidDriver] Performed fast reset on the installed 'com.featureapp' application (stop and clear)
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:4724 tcp\:4724'
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 push /Applications/Appium.app/Contents/Resources/app/node_modules/appium-android-driver/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[ADB] No 'uiautomator' process has been found
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.featureapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Device API level: 28
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.featureapp/com.applicaster.componentsapp.IntroActivity -S'
+[Appium] New AndroidDriver session created successfully, session 19910d9f-bfc9-4c80-ab6c-86cf49650d35 added to master session list
+[BaseDriver] Event 'newSessionStarted' logged at 1547457732067 (11:22:12 GMT+0200 (IST))
+[W3C (19910d9f)] Cached the protocol value 'W3C' for the new session 19910d9f-bfc9-4c80-ab6c-86cf49650d35
+[W3C (19910d9f)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"Emulator","appActivity":"com.applicaster.componentsapp.IntroActivity","appPackage":"com.featureapp","host":"http://127.0.0.1:4723/wd/hub"},"platformName":"Android","deviceName":"emulator-5554","appActivity":"com.applicaster.componentsapp.IntroActivity","appPackage":"com.featureapp","host":"http://127.0.0.1:4723/wd/hub","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1440x2560","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}}
+[HTTP] <-- POST /wd/hub/session 200 6241 ms - 798
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/screenshot
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.getScreenshot() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[ADB] Device API level: 28
+[W3C (19910d9f)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAUXI0lEQVR4AezBD3wU9H3/8dfn7nJJLiQhAcL/kFYmOvEPMlL/4K/oaSsUEMVFBZQyhlallVaLrVqqttUqFkQNGwJ2XbU6tJXVVtTAQ3TiH8CqQCdKECUQEEMgCOTPJff9Lb1ll4QEAiTkLnk/nwY4RERERERERERERERamQcRERERERERERERkTbgQURERERERERERESkDXgQEREREREREREREWkDHkRERERERERERERE2oAHEREREREREREREZE24EFEREREREREREREpA14EBERERERERERERFpAx5ERERERERERERERNqABxERERERERERERGRNuBBRERERERERERERKQNeBARERERERERERERaQMeRERERERERERERETagAcRERERERERERERkTbgQURERERERERERESkDXgQEREREREREREREWkDHkRERERERERERERE2oAHEREREREREREREZE24EFEREREREREREREpA34EJGYZGYEAgGSk5M5HOccVVVVfPnll3R2ZkZCQgJpaWkcL+ccoVCIiooKqqqqEBERERERkaOTlJTEKaecQq9evUhJSaFLly5UVlZSUlLCrl27KC4uZvfu3Tjn6Kx8Ph9paWmkp6eTlpZGWloaBw4coKysjH379lFaWkpNTQ0SH4qLi+nduzctUVxcTN++fekMfIhITEpLS+PKK6/krLPOwsxoTnV1NRs3buTxxx8nHA7TWZkZgUCAr33ta1x++eWYGccjFApRXFzMe++9x9q1a9m7dy8iIiIiIiJyeF6vl/79+5Obm8vpp5/OaaedRs+ePUlJSSElJYWqqipKSkr44osv2LFjB59++imbN29m9erVfP7559TU1NARZWZmctFFF5Gbm0tOTg45OTkMGDCArKwsjmT79u188MEHvP/++7z77rusX7+ewsJCnHOIxAMfIhJzPB4Pf/d3f8eCBQvwer0cSWFh...
+[HTTP] <-- GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/screenshot 200 1987 ms - 444892
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/alert/text
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.getAlertText() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[W3C (19910d9f)] Encountered internal error running command: NotYetImplementedError: Method has not yet been implemented
+[W3C (19910d9f)]     at AndroidDriver.commands.getAlertText (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-android-driver/lib/commands/alert.js:6:9)
+[W3C (19910d9f)]     at curCommandCancellable._bluebird.default.resolve.then (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/lib/basedriver/driver.js:291:18)
+[W3C (19910d9f)]     at tryCatcher (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/util.js:26:23)
+[W3C (19910d9f)]     at Promise._settlePromiseFromHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/promise.js:510:31)
+[W3C (19910d9f)]     at Promise._settlePromiseAt (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/promise.js:584:18)
+[W3C (19910d9f)]     at Promise._settlePromiseAtPostResolution (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/promise.js:248:10)
+[W3C (19910d9f)]     at Async._drainQueue (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/async.js:128:12)
+[W3C (19910d9f)]     at Async._drainQueues (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/async.js:133:10)
+[W3C (19910d9f)]     at Immediate.Async.drainQueues (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/node_modules/bluebird/js/main/async.js:15:14)
+[W3C (19910d9f)]     at runCallback (timers.js:696:18)
+[W3C (19910d9f)]     at tryOnImmediate (timers.js:667:5)
+[W3C (19910d9f)]     at processImmediate (timers.js:649:5)
+[HTTP] <-- GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/alert/text 404 11 ms - 1741
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/window/rect
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.getWindowRect() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":2392,"width":1440}}
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2392,"x":0,"y":0}
+[HTTP] <-- GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/window/rect 200 29 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/touch/perform
+[HTTP] {"sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","actions":[{"action":"press","options":{"y":1196,"x":720}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"y":399,"x":720}},{"action":"release","options":{}}]}
+[W3C (19910d9f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":1196,"x":720}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"y":399,"x":720}},{"action":"release","options":{}}],"19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":720,"startY":1196,"endX":720,"endY":399,"steps":14}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":720,"startY":1196,"endX":720,"endY":399,"steps":14}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1440,2392]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1440,2392]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=720.0, y=1196.0] to [x=720.0, y=399.0] with steps: 14
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.performTouch() result: true
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/touch/perform 200 543 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/window/rect
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.getWindowRect() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.getWindowRect() result: {"width":1440,"height":2392,"x":0,"y":0}
+[HTTP] <-- GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/window/rect 200 17 ms - 50
+[HTTP] 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":2392,"width":1440}}
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/touch/perform
+[HTTP] {"sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","actions":[{"action":"press","options":{"y":1196,"x":720}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"y":399,"x":720}},{"action":"release","options":{}}]}
+[W3C (19910d9f)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":1196,"x":720}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"y":399,"x":720}},{"action":"release","options":{}}],"19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":720,"startY":1196,"endX":720,"endY":399,"steps":14}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":720,"startY":1196,"endX":720,"endY":399,"steps":14}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1440,2392]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1440,2392]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=720.0, y=1196.0] to [x=720.0, y=399.0] with steps: 14
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.performTouch() result: true
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/touch/perform 200 684 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element
+[HTTP] {"using":"accessibility id","sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","value":"continue_button"}
+[W3C (19910d9f)] Calling AppiumDriver.findElement() with args: ["accessibility id","continue_button","19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"continue_button","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"continue_button","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'continue_button' using 'ACCESSIBILITY_ID' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=continue_button, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element 200 40 ms - 67
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element/1/click
+[HTTP] {"sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","id":"1"}
+[W3C (19910d9f)] Calling AppiumDriver.click() with args: ["1","19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element/1/click 200 3165 ms - 14
+[HTTP] 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] --> GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/screenshot
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.getScreenshot() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[ADB] Device API level: 28
+[W3C (19910d9f)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAmyyUlEQVR4AezBCXjUhZ3H4c9vMhlgOMIZQBHi6qpdrVZZUl1xi47uCgVE8EkVtNSy6OPRaqvFrXapUh+txYIU4y5F7bNdqy26lae2ogSeYtejKp6wjwd4EQ7XYmoQDeT6reFvmMxkEibJTJgk3/c1wBERERERERERERERybAQIiIiIiIiIiIiIiJZEEJEREREREREREREJAtCiIiIiIiIiIiIiIhkQQgRERERERERERERkSwIISIiIiIiIiIiIiKSBSFERERERERERERERLIghIiIiIiIiIiIiIhIFoQQEREREREREREREcmCECIiIiIiIiIiIiIiWRBCRERERERERERERCQLQoiIiIiIiIiIiIiIZEEIEREREREREREREZEsCCEiIiIiIiIiIiIikgUhRERERERERERERESyIISIiIiIiIiIiIiISBaEEBERERERERERERHJghAiIiIiIiIiIiIiIlkQQkREREREREREREQkC8KISE4yM6LRKH369KE17k51dTUff/wxPZ2ZkZ+fz4ABA+god6empoY9e/ZQXV2NiIiIiIiISKaFw2EGDBhAQUEBAwYMYMCAAXzyySdUVlaya9cuKioqqKurQ7qG7du3M3LkSNKxfft2Dj30UHqCMCKSkwYMGMB5553Hl770JcyMltTW1vL666/z85//nPr6enoqMyMajfLlL3+Zc889FzOjI2pqati+fTsvvfQS69ev56OPPkJERERERESkPQYPHswZZ5xBcXExRUVFFBUVMWbMGAoLCzmQbdu28corr/Dyyy/zwgsvsGHDBjZv3oy7I9IVhBGRnBMKhfjbv/1bli1bRl5eHgeyefNmVqxYQUVFBT2RmRGNRonFYpSWljJq1Cgy5cMPP2TJkiX87Gc/o7KyEhEREREREZEDycvL4+STT2by5MmceeaZjB07FjOjPQ499FAOPfRQJk2aRKPKykpefPFFnnvu...
+[HTTP] <-- GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/screenshot 200 2420 ms - 847548
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element
+[HTTP] {"using":"accessibility id","sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","value":"0f763b4f-a2f5-43bc-ab7f-b08a4aa8a51a"}
+[W3C (19910d9f)] Calling AppiumDriver.findElement() with args: ["accessibility id","0f763b4f-a2f5-43bc-ab7f-b08a4aa8a51a","19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"0f763b4f-a2f5-43bc-ab7f-b08a4aa8a51a","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"0f763b4f-a2f5-43bc-ab7f-b08a4aa8a51a","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '0f763b4f-a2f5-43bc-ab7f-b08a4aa8a51a' using 'ACCESSIBILITY_ID' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=0f763b4f-a2f5-43bc-ab7f-b08a4aa8a51a, INSTANCE=0]
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element 200 5718 ms - 67
+[HTTP] 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element
+[HTTP] {"using":"accessibility id","sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","value":"special_button"}
+[W3C (19910d9f)] Calling AppiumDriver.findElement() with args: ["accessibility id","special_button","19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"special_button","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"accessibility id","selector":"special_button","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'special_button' using 'ACCESSIBILITY_ID' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=special_button, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element 200 10141 ms - 67
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element/3/click
+[HTTP] {"sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","id":"3"}
+[W3C (19910d9f)] Calling AppiumDriver.click() with args: ["3","19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] Received command result from bootstrap
+[W3C (19910d9f)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/element/3/click 200 10490 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/screenshot
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.getScreenshot() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[ADB] Device API level: 28
+[W3C (19910d9f)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAO4oUlEQVR4AezBB3zV9eHv/9fne0ZOTvZOIIQgiKIMBYla0IIHFCgggkUFLLUWuVoHFsdVW+uq1joQNbYU0Nv+XFX6k6oVIXIF6wZlBBVZAoGEkb1Octb3/vl7ffz85QZF4EDG+/k0gI2IiIiIiIiIiIiIyFFmISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlFgISIiIiIiIiIiIiISBRYiIiIiIiIiIiIiIlHgRETaJGMMXq+X2NhYvott2wQCAerq6ujsjDG4XC4SExM5UrZtEwwGaWpqIhAIICIiIiIiInK0OZ1OEhMTSUpKIjExkcTERBoaGqipqaG2tpbKykrC4TDSPpSWlpKTk8OhKC0tpWvXrnQGTkSkTUpMTOTiiy/mtNNOwxjDwYRCITZu3Mhf/vIXIpEInZUxBq/Xy5lnnslFF12EMYYjEQwGKS0tZc2aNaxevZrq6mpEREREREREDkdqairnnXceBQUF5Ofnk5+fT/fu3cnMzOT77N69m3Xr1rF27Vo++eQTiouL2bJlC7ZtI9IeOBGRNseyLE488UTmzZuHw+Hg+2zZsoWXXnqJyspKOiNjDF6vF5/PR2FhIbm5uRwtFRUVzJ07l8cff5yamhpEREREREREvo/D4eCss85i7NixjBgxgkGDBmGM4XB07dqVrl27MmbMGL5RU1PDp59+yscff8xbb73FypUrCQaDiLRFTkSkzXG7...
+[HTTP] <-- GET /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/screenshot 200 2796 ms - 325252
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/log
+[HTTP] {"sessionId":"19910d9f-bfc9-4c80-ab6c-86cf49650d35","type":"logcat"}
+[W3C (19910d9f)] Calling AppiumDriver.getLog() with args: ["logcat","19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[BaseDriver] Retrieving 'logcat' logs
+[BaseDriver] Retrieving supported log types
+[W3C (19910d9f)] Responding to client with driver.getLog() result: [{"timestamp":1547457727056,"level":"ALL","message":"--------- beginning of crash"},{"timestamp":1547457727056,"level":"ALL","message":"01-07 11:42:35.758 17738 17738 E AndroidRuntime: FATAL EXCEPTION: main"},{"timestamp":1547457727056,"level":"ALL","message":"01-07 11:42:35.758 17738 17738 E AndroidRuntime: Process: com.featureapp, PID: 17738"},{"timestamp":1547457727056,"level":"ALL","message":"01-07 11:42:35.758 17738 17738 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.featureapp/com.applicaster.genericapp.activities.ArticleAtomActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.widget.DrawerLayout.addDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)' on a null object reference"},{"timestamp":1547457727056,"level":"ALL","message":"01-07 11:42:35.758 17738 17738 E AndroidRuntime: \tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2913)"},{"timestamp":1547457727056,"level"...
+[HTTP] <-- POST /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35/log 200 48 ms - 1703248
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35
+[HTTP] {}
+[W3C (19910d9f)] Calling AppiumDriver.deleteSession() with args: ["19910d9f-bfc9-4c80-ab6c-86cf49650d35"]
+[BaseDriver] Event 'quitSessionRequested' logged at 1547457784288 (11:23:04 GMT+0200 (IST))
+[Appium] Removing session 19910d9f-bfc9-4c80-ab6c-86cf49650d35 from our master session list
+[AndroidDriver] Shutting down Android driver
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.featureapp'
+[ADB] Pressing the HOME button
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell input keyevent 3'
+[AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] Received command result from bootstrap
+[UiAutomator] Shutting down UiAutomator
+[UiAutomator] Moving to state 'stopping'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[UiAutomator] UiAutomator shut down normally
+[UiAutomator] Moving to state 'stopped'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[ADB] No 'uiautomator' process has been found
+[UiAutomator] Moving to state 'stopped'
+[Logcat] Stopping logcat capture
+[ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.unlock'
+[AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[BaseDriver] Event 'quitSessionFinished' logged at 1547457785929 (11:23:05 GMT+0200 (IST))
+[W3C (19910d9f)] Received response: null
+[W3C (19910d9f)] But deleting session, so not returning
+[W3C (19910d9f)] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/19910d9f-bfc9-4c80-ab6c-86cf49650d35 200 1643 ms - 14
+[HTTP] 
